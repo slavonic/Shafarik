@@ -262,6 +262,7 @@ lookup ccmpPrecomposedLetteredTitlos {
     sub \uniA69E \uni0487  by \uniF69E;
     sub \uniA69F \uni0487  by \uniF69F;
     sub \uni2DF5 \uni0487  by \uniF4F5;
+    sub \uni0307 \uni0487  by \uniF6A0;
 } ccmpPrecomposedLetteredTitlos;
 
 lookup ccmpPrecomposedTensNumerals {
@@ -1803,7 +1804,7 @@ lookup markMarkPositioning {
   markClass [\uni2DEC \uniF4EC ] <anchor -152 453> @Above;
   markClass [\uni2DED \uniF4ED ] <anchor -139 529> @Above;
   markClass [\uni2DF0 \uniF4F0 ] <anchor -135 473> @Above;
-  markClass [\uni2DF2 \uni2DF4 \uni2DF6 \uniA678 \uniA679 \uniA67A \uniA69F \uniF4F2 \uniF4F4 \uniF4F6 \uniF678 \uniF679 \uniF67A \uniF69F ] <anchor -156 533> @Above;
+  markClass [\uni2DF2 \uni2DF4 \uni2DF6 \uniA678 \uniA679 \uniA67A \uniA69F \uniF4F2 \uniF4F4 \uniF4F6 \uniF678 \uniF679 \uniF67A \uniF69F \uniF6A0 ] <anchor -156 533> @Above;
   markClass [\uni2DF3 \uniF4F3 ] <anchor -156 481> @Above;
   markClass [\uni2DF9 \uniF4F9 ] <anchor -138 532> @Above;
   markClass [\uni2DFA \uniA676 \uniF4FA \uniF676 \uniE0BB ] <anchor -116 533> @Above;
@@ -5036,7 +5037,7 @@ lookup mkmkMarktoMarkPositioning {
   markClass [\uni2DF0 \uniF4F0 ] <anchor -135 470> @Stacking;
   markClass [\uni2DF2 \uniF4F2 ] <anchor -156 530> @Stacking;
   markClass [\uni2DF3 \uniF4F3 ] <anchor -157 478> @Stacking;
-  markClass [\uni2DF4 \uni2DF6 \uniA678 \uniA679 \uniA67A \uniA69F \uni2DFC \uniF4F4 \uniF4F6 \uniF4FC \uniF678 \uniF679 \uniF67A \uniF69F ] <anchor -155 530> @Stacking;
+  markClass [\uni2DF4 \uni2DF6 \uniA678 \uniA679 \uniA67A \uniA69F \uni2DFC \uniF4F4 \uniF4F6 \uniF4FC \uniF678 \uniF679 \uniF67A \uniF69F \uniF6A0 ] <anchor -155 530> @Stacking;
   markClass [\uni2DF9 \uni2DFE \uniF4F9 \uniF4FE ] <anchor -138 530> @Stacking;
   markClass [\uni2DFA \uniA676 \uniF4FA \uniF676 ] <anchor -116 530> @Stacking;
   markClass [\uni2DFD \uniF4FD ] <anchor -121 530> @Stacking;
@@ -5140,7 +5141,7 @@ lookup mkmkMarktoMarkPositioning {
   pos mark [\uni2DE8 \uniF4E8 ] <anchor -128 800> mark @Stacking;
   pos mark [\uni2DE9 \uni2DF1 \uni2DF8 \uniF4E9 \uniF4F1 \uniF4F8 ] <anchor -137 800> mark @Stacking;
   pos mark [\uni2DEA \uni2DEB \uni2DF0 \uni2DE5 \uni2DF7 \uniF4E5 \uniF4EA \uniF4EB \uniF4F0 \uniF4F7 \uniE0BA ] <anchor -135 800> mark @Stacking;
-  pos mark [\uni2DEC \uni2DF4 \uni2DF6 \uniA677 \uniA678 \uniA679 \uniA67A \uniA69F \uni2DFC \uniF4EC \uniF4F4 \uniF4F6 \uniF4FC \uniF677 \uniF678 \uniF679 \uniF67A \uniF69F ] <anchor -155 800> mark @Stacking;
+  pos mark [\uni2DEC \uni2DF4 \uni2DF6 \uniA677 \uniA678 \uniA679 \uniA67A \uniA69F \uni2DFC \uniF4EC \uniF4F4 \uniF4F6 \uniF4FC \uniF677 \uniF678 \uniF679 \uniF67A \uniF69F \uniF6A0 ] <anchor -155 800> mark @Stacking;
   pos mark [\uni2DF2 \uniF4F2 ] <anchor -156 800> mark @Stacking;
   pos mark [\uni2DF3 \uniF4F3 ] <anchor -157 800> mark @Stacking;
   pos mark [\uni2DF9 \uni2DFE \uniF4F9 \uniF4FE ] <anchor -138 800> mark @Stacking;
@@ -5523,7 +5524,7 @@ feature mkmk {
 	\uni0483.salt4 \uni0487.salt1 \uni0483.salt5 \uni0483.salt6 \uni0483.salt7 
 	\uni0487.salt2 \uF0023 \uniED60 \uniED70 \uniED80 \uniED90 \uniEDA0 \uniEDB0 
 	\uniEDC0 \uniEDD0 \uniEDE0 \uniEDF0 \uniF4F5 \uF0097 \uF0098 \uniEC9C \uniEC9D 
-	\uniEC9E \uniEC9F \u1E015.ss03 \u1E015.ss04 ];
+	\uniEC9E \uniEC9F \u1E015.ss03 \u1E015.ss04 \uniF6A0 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;

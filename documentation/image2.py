@@ -16,15 +16,15 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/ttf/Shafarik.otf"
+FONT_PATH = "fonts/otf/Shafarik-Regular.otf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "ѣкоже естъ псано"
-LINE_TWO = "въ пророцѣх · ⱑⰽⱁⰶⰵ ⰵⱄⱅⱏ"
-LINE_THREE = "ⱂⱄⰰⱀⱁ ⰲⱏ ⱂⱃⱁⱃⱁⱌⱑⱈⱏ"
-LINE_FOUR = "󰌃"
+LINE_ONE = " Зачѧло Ева︮ꙉ︦л︯иѣ ꙇ͠с х͠ва"
+LINE_TWO = " Ⰸⰰⱍⱔⰾⱁ ⰵⰲⰰ︮ⰼⰾ︯ⰻⱑ"
+LINE_THREE = " 󰈸󰈰󰉍󰉔󰈾󰉁 󰈵󰈲󰈰󰈼󰈾󰈻󰉑 "
+LINE_FOUR = " Шафарикъ ⱎⰰⱇⰰⱃⰻⰽⱏ "
 BIG_TEXT_FONT_SIZE = 160
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45

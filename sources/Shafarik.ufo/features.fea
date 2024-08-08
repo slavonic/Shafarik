@@ -5329,87 +5329,69 @@ feature mkmk {
 	\uniA653 \uniA64E \uniA64F \uni2C03.salt \uni2C33.salt \uni2C04.salt 
 	\uni2C34.salt \uni2C0F.salt \uni2C3F.salt \uni2C17.salt \uni2C47.salt 
 	\uni2C19.salt \uni2C49.salt \uni2C20.salt \uni2C50.salt \uni2C22.salt 
-	\uni2C52.salt \uni2C24.salt \uni2C54.salt \uniEC70 \uniEC71 \uniEC72 \uniEC73 
-	\uniEC75 \uni2C11.ss03.salt \uniECB3 \uniECB4 \uniECB5 \uniECB6 \uniECB7 
-	\uniECB8 \uniECB9 \uniECBA \uniECBB \uniECBC \uniECBD \uniECBE \uniECBF \uniECCB 
-	\uniECCC \uniECCD \uniECCE \uniECCF \uniECD0 \uniECD1 \uniECD2 \uniECD3 \uniECD4 
-	\uniECD5 \uniECD6 \uniECD7 \uniECD8 \uniECD9 \uniECDA \uniECDB \uniECDC \uniECDD 
-	\u1D000 \u1D001 \u1D002 \u1D003 \u1D004 \u1D005 \u1D006 \u1D007 \u1D008 \u1D009 
-	\u1D00A \u1D00B \u1D00C \u1D00D \u1D00E \u1D00F \u1D010 \u1D011 \u1D012 \u1D013 
-	\u1D014 \u1F311 \u1F312 \u1F313 \u1F314 \u1F315 \u1F316 \u1F317 \u1F318 \u1F319 
-	\u1F347 \u1F377 \u1F41F \u1F540 \u1F541 \u1F542 \u1F543 \u1F544 \u1F545 \uniE4E0 
-	\uniE4E1 \uni0000 \uni000D \uni007F \uni0480 \figuredash \quotereversed 
-	\uni201F \uni205A \uni205B \uni2E49 \uni2E45 \uni2E46 \uni2E47 \uni2E48 \u1F900 
-	\u1F901 \u1F902 \u1F903 \u1F904 \u1F905 \u1F906 \u1F907 \u1F908 \u1F909 \u1F90A 
-	\u1F90B \uniED07 \uniED08 \uniED17 \uniED19 \uniED1A \uniED27 \uniED28 \uniED29 
-	\uniED2A \uniED2B \uniED2C \uniED2D \uniED2E \uniED2F \uniED3D \uniED3E \uniED3F 
-	\uniED40 \uniED48 \uniED49 \uniED4E \uniED4F \uniED58 \uniED59 \uniED5E \uniED5F 
-	\uniED6C \uniED6D \uniED6E \uniED6F \uniED7C \uniED7D \uniED7E \uniED7F \uniED8C 
-	\uniED8D \uniED8E \uniED8F \uniED9C \uniED9D \uniED9E \uniED9F \uniEDAC \uniEDAD 
-	\uniEDAE \uniEDAF \uniEDBC \uniEDBD \uniEDBE \uniEDBF \uniEDCC \uniEDCD \uniEDCE 
-	\uniEDCF \uniEDDC \uniEDDD \uniE1D6 \uniE1D7 \uniEDFF \uniEDEC \uniEDED \uniEDEE 
-	\uniEDFC \uniEDEF \uniEDFD \uniEDFE \uni2C02.ss03.salt \uni2C05.ss03.salt 
-	\uni2C35.ss03.salt \uniEC74 \uni2C46.ss03.salt \uni2C16.ss03.salt 
-	\uni2C1F.ss03.salt \uni2C4F.ss03.salt \uni2C38.ss03.salt \uni2C0C.ss03.salt 
+	\uni2C52.salt \uni2C24.salt \uni2C54.salt \uni2C11.ss03.salt \u1D000 \u1D001 
+	\u1D002 \u1D003 \u1D004 \u1D005 \u1D006 \u1D007 \u1D008 \u1D009 \u1D00A \u1D00B 
+	\u1D00C \u1D00D \u1D00E \u1D00F \u1D010 \u1D011 \u1D012 \u1D013 \u1D014 \u1F311 
+	\u1F312 \u1F313 \u1F314 \u1F315 \u1F316 \u1F317 \u1F318 \u1F319 \u1F347 \u1F377 
+	\u1F41F \u1F540 \u1F541 \u1F542 \u1F543 \u1F544 \u1F545 \uniE4E0 \uniE4E1 
+	\uni0000 \uni000D \uni007F \uni0480 \figuredash \quotereversed \uni201F 
+	\uni205A \uni205B \uni2E49 \uni2E45 \uni2E46 \uni2E47 \uni2E48 \u1F900 \u1F901 
+	\u1F902 \u1F903 \u1F904 \u1F905 \u1F906 \u1F907 \u1F908 \u1F909 \u1F90A \u1F90B 
+	\uniED07 \uniED08 \uniED17 \uniED19 \uniED1A \uniED27 \uniED28 \uniED29 \uniED2A 
+	\uniED2B \uniED2C \uniED2D \uniED2E \uniED2F \uniED3D \uniED3E \uniED3F \uniED40 
+	\uniED48 \uniED49 \uniED4E \uniED4F \uniED58 \uniED59 \uniED5E \uniED5F \uniED6C 
+	\uniED6D \uniED6E \uniED6F \uniED7C \uniED7D \uniED7E \uniED7F \uniED8C \uniED8D 
+	\uniED8E \uniED8F \uniED9C \uniED9D \uniED9E \uniED9F \uniEDAC \uniEDAD \uniEDAE 
+	\uniEDAF \uniEDBC \uniEDBD \uniEDBE \uniEDBF \uniEDCC \uniEDCD \uniEDCE \uniEDCF 
+	\uniEDDC \uniEDDD \uniE1D6 \uniE1D7 \uniEDFF \uniEDEC \uniEDED \uniEDEE \uniEDFC 
+	\uniEDEF \uniEDFD \uniEDFE \uni2C02.ss03.salt \uni2C05.ss03.salt 
+	\uni2C35.ss03.salt \uni2C46.ss03.salt \uni2C16.ss03.salt \uni2C1F.ss03.salt 
+	\uni2C4F.ss03.salt \uni2C38.ss03.salt \uni2C0C.ss03.salt 
 	\uni2C1F.ss03.salt2 \uni2C30.ss03.salt \uni2C08.ss03.salt 
 	\uni2C3C.ss03.salt \uni2C0F.ss03.salt \uni2C0F.ss03.salt2 
 	\uni2C4F.ss03.salt2 \uni2C1F.ss03.salt3 \uni2C4F.ss03.salt3 
 	\uni2C22.ss03.salt \uni2C52.ss03.salt \uni2C2C.ss03.salt \uni2C5C.ss03.salt 
 	\uni2C2E.ss03.salt \uni2C1D.ss03.salt \uni2C4D.ss03.salt \uni2C20.ss03.salt 
-	\uni2C50.ss03.salt \uniEC92 \uniEC93 \uniEC94 \uniEC95 \uniEC96 \uniEC97 
-	\uniEC98 \uniEC99 \uniEC9A \uniEC9B \uniECEA \uniECEB \uniECEC \uniECED \uniECEE 
-	\uniECEF \uniECF0 \uniECF1 \uniECF2 \uniECF3 \uniECF4 \uniECF5 \uniECF6 \uniECF7 
-	\uniECF8 \uniECF9 \uniECFA \uniECFB \uniECFC \uniECFD \uniECFE \uniECFF \uniEC00 
-	\uniEC01 \uniEC02 \uniEC03 \uniEC04 \uniEC05 \uniEC06 \uniEC07 \uniEC08 \uniEC09 
-	\uniEC0A \uniEC0B \uniEC0C \uniEC0D \uniEC0E \uniEC0F \uniEC10 \uniEC11 \uniEC12 
-	\uniEC13 \uniEC14 \uniEC15 \uniEC16 \uniEC17 \uniEC18 \uniEC19 \uniEC1A \uniEC1B 
-	\uniEC1C \uniEC1D \uniEC1E \uniEC1F \uniEC20 \uniEC21 \uniEC22 \uniEC23 \uniEC24 
-	\uniEC25 \uniEC26 \uniEC27 \uniEC28 \uniEC29 \uniEC2A \uniEC2B \uniEC2C \uniEC2D 
-	\uniEC2E \uniEC2F \uniECDE \uniECDF \uni2C00.ss03 \uni2C01.ss03 \uni2C02.ss03 
-	\uni2C03.ss03 \uni2C04.ss03 \uni2C05.ss03 \uni2C06.ss03 \uni2C07.ss03 
-	\uni2C08.ss03 \uni2C09.ss03 \uni2C0A.ss03 \uni2C0B.ss03 \uni2C0C.ss03 
-	\uni2C0D.ss03 \uni2C0E.ss03 \uni2C0F.ss03 \uni2C10.ss03 \uni2C11.ss03 
-	\uni2C12.ss03 \uni2C13.ss03 \uni2C14.ss03 \uni2C15.ss03 \uni2C16.ss03 
-	\uni2C17.ss03 \uni2C18.ss03 \uni2C19.ss03 \uni2C1A.ss03 \uni2C1B.ss03 
-	\uni2C1C.ss03 \uni2C1D.ss03 \uni2C1E.ss03 \uni2C1F.ss03 \uni2C20.ss03 
-	\uni2C21.ss03 \uni2C22.ss03 \uni2C23.ss03 \uni2C24.ss03 \uni2C25.ss03 
-	\uni2C26.ss03 \uni2C27.ss03 \uni2C28.ss03 \uni2C29.ss03 \uni2C2A.ss03 
-	\uni2C2B.ss03 \uni2C2C.ss03 \uni2C2D.ss03 \uni2C2E.ss03 \uni2C2F.ss03 
-	\uni2C30.ss03 \uni2C31.ss03 \uni2C32.ss03 \uni2C33.ss03 \uni2C34.ss03 
-	\uni2C35.ss03 \uni2C36.ss03 \uni2C37.ss03 \uni2C38.ss03 \uni2C39.ss03 
-	\uni2C3A.ss03 \uni2C3B.ss03 \uni2C3C.ss03 \uni2C3D.ss03 \uni2C3E.ss03 
-	\uni2C3F.ss03 \uni2C40.ss03 \uni2C41.ss03 \uni2C42.ss03 \uni2C43.ss03 
-	\uni2C44.ss03 \uni2C45.ss03 \uni2C46.ss03 \uni2C47.ss03 \uni2C48.ss03 
-	\uni2C49.ss03 \uni2C4A.ss03 \uni2C4B.ss03 \uni2C4C.ss03 \uni2C4D.ss03 
-	\uni2C4E.ss03 \uni2C4F.ss03 \uni2C50.ss03 \uni2C51.ss03 \uni2C52.ss03 
-	\uni2C53.ss03 \uni2C54.ss03 \uni2C55.ss03 \uni2C56.ss03 \uni2C57.ss03 
-	\uni2C58.ss03 \uni2C59.ss03 \uni2C5A.ss03 \uni2C5B.ss03 \uni2C5C.ss03 
-	\uni2C5D.ss03 \uni2C5E.ss03 \uF05FF \uF0261 \uF0262 \uF0263 \uF0264 \uF0265 
-	\uF0266 \uF0267 \uF0268 \uF0269 \uF026A \uF026B \uF026C \uF026D \uF026E \uF026F 
-	\uni2C00.ss04 \uni2C01.ss04 \uni2C02.ss04 \uni2C03.ss04 \uni2C04.ss04 
-	\uni2C05.ss04 \uni2C06.ss04 \uni2C07.ss04 \uni2C08.ss04 \uni2C09.ss04 
-	\uni2C0A.ss04 \uni2C0B.ss04 \uni2C0C.ss04 \uni2C0D.ss04 \uni2C0E.ss04 
-	\uni2C0F.ss04 \uni2C10.ss04 \uni2C11.ss04 \uni2C12.ss04 \uni2C13.ss04 
-	\uni2C14.ss04 \uni2C15.ss04 \uni2C16.ss04 \uni2C17.ss04 \uni2C18.ss04 
-	\uni2C19.ss04 \uni2C1A.ss04 \uni2C1B.ss04 \uni2C1C.ss04 \uni2C1D.ss04 
-	\uni2C1E.ss04 \uni2C1F.ss04 \uni2C20.ss04 \uni2C21.ss04 \uni2C22.ss04 
-	\uni2C23.ss04 \uni2C24.ss04 \uni2C25.ss04 \uni2C26.ss04 \uni2C27.ss04 
-	\uni2C28.ss04 \uni2C29.ss04 \uni2C2A.ss04 \uni2C2B.ss04 \uni2C2C.ss04 
-	\uni2C2D.ss04 \uni2C2E.ss04 \uni2C30.ss04 \uni2C31.ss04 \uni2C32.ss04 
-	\uni2C33.ss04 \uni2C34.ss04 \uni2C35.ss04 \uni2C36.ss04 \uni2C37.ss04 
-	\uni2C38.ss04 \uni2C39.ss04 \uni2C3A.ss04 \uni2C3B.ss04 \uni2C3C.ss04 
-	\uni2C3D.ss04 \uni2C3E.ss04 \uni2C3F.ss04 \uni2C40.ss04 \uni2C41.ss04 
-	\uni2C42.ss04 \uni2C43.ss04 \uni2C44.ss04 \uni2C45.ss04 \uni2C46.ss04 
-	\uni2C47.ss04 \uni2C48.ss04 \uni2C49.ss04 \uni2C4A.ss04 \uni2C4B.ss04 
-	\uni2C4C.ss04 \uni2C4D.ss04 \uni2C4E.ss04 \uni2C4F.ss04 \uni2C50.ss04 
-	\uni2C51.ss04 \uni2C52.ss04 \uni2C53.ss04 \uni2C54.ss04 \uni2C55.ss04 
-	\uni2C56.ss04 \uni2C57.ss04 \uni2C58.ss04 \uni2C59.ss04 \uni2C5A.ss04 
-	\uni2C5B.ss04 \uni2C5C.ss04 \uni2C5D.ss04 \uni2C5E.ss04 \uF02E0 \uF02E1 
-	\uF02E2 \uF02E3 \uF02E4 \uF02E5 \uF02E6 \uF02E7 \uF02E8 \uF02E9 \uF02EA \uF02EB 
-	\uF02EC \uF02ED \uF02EE \uF02EF \uF02F0 \uF02F1 \uF02F2 \uF02F3 \uF02F4 \uF02F5 
-	\uF02F6 \uF02F7 \uni2C5F.ss03 \uni2C5F.ss04 \uF02D1 \uF02D2 \uF02D3 \uF02D4 
-	\uF02D5 \uF02D6 \uF02D7 \uF02D8 \uF02D9 \uF02DA \uF02DB \uF02DC \uF02DD \uF02DE 
-	\uF02DF \uF02F8 \uF02F9 \uF02FA \uF02FB \uF02FC \uF02FD \uF02FE \uF02FF \uni2C2F 
+	\uni2C50.ss03.salt \uni2C00.ss03 \uni2C01.ss03 \uni2C02.ss03 \uni2C03.ss03 
+	\uni2C04.ss03 \uni2C05.ss03 \uni2C06.ss03 \uni2C07.ss03 \uni2C08.ss03 
+	\uni2C09.ss03 \uni2C0A.ss03 \uni2C0B.ss03 \uni2C0C.ss03 \uni2C0D.ss03 
+	\uni2C0E.ss03 \uni2C0F.ss03 \uni2C10.ss03 \uni2C11.ss03 \uni2C12.ss03 
+	\uni2C13.ss03 \uni2C14.ss03 \uni2C15.ss03 \uni2C16.ss03 \uni2C17.ss03 
+	\uni2C18.ss03 \uni2C19.ss03 \uni2C1A.ss03 \uni2C1B.ss03 \uni2C1C.ss03 
+	\uni2C1D.ss03 \uni2C1E.ss03 \uni2C1F.ss03 \uni2C20.ss03 \uni2C21.ss03 
+	\uni2C22.ss03 \uni2C23.ss03 \uni2C24.ss03 \uni2C25.ss03 \uni2C26.ss03 
+	\uni2C27.ss03 \uni2C28.ss03 \uni2C29.ss03 \uni2C2A.ss03 \uni2C2B.ss03 
+	\uni2C2C.ss03 \uni2C2D.ss03 \uni2C2E.ss03 \uni2C2F.ss03 \uni2C30.ss03 
+	\uni2C31.ss03 \uni2C32.ss03 \uni2C33.ss03 \uni2C34.ss03 \uni2C35.ss03 
+	\uni2C36.ss03 \uni2C37.ss03 \uni2C38.ss03 \uni2C39.ss03 \uni2C3A.ss03 
+	\uni2C3B.ss03 \uni2C3C.ss03 \uni2C3D.ss03 \uni2C3E.ss03 \uni2C3F.ss03 
+	\uni2C40.ss03 \uni2C41.ss03 \uni2C42.ss03 \uni2C43.ss03 \uni2C44.ss03 
+	\uni2C45.ss03 \uni2C46.ss03 \uni2C47.ss03 \uni2C48.ss03 \uni2C49.ss03 
+	\uni2C4A.ss03 \uni2C4B.ss03 \uni2C4C.ss03 \uni2C4D.ss03 \uni2C4E.ss03 
+	\uni2C4F.ss03 \uni2C50.ss03 \uni2C51.ss03 \uni2C52.ss03 \uni2C53.ss03 
+	\uni2C54.ss03 \uni2C55.ss03 \uni2C56.ss03 \uni2C57.ss03 \uni2C58.ss03 
+	\uni2C59.ss03 \uni2C5A.ss03 \uni2C5B.ss03 \uni2C5C.ss03 \uni2C5D.ss03 
+	\uni2C5E.ss03 \uni2C00.ss04 \uni2C01.ss04 \uni2C02.ss04 \uni2C03.ss04 
+	\uni2C04.ss04 \uni2C05.ss04 \uni2C06.ss04 \uni2C07.ss04 \uni2C08.ss04 
+	\uni2C09.ss04 \uni2C0A.ss04 \uni2C0B.ss04 \uni2C0C.ss04 \uni2C0D.ss04 
+	\uni2C0E.ss04 \uni2C0F.ss04 \uni2C10.ss04 \uni2C11.ss04 \uni2C12.ss04 
+	\uni2C13.ss04 \uni2C14.ss04 \uni2C15.ss04 \uni2C16.ss04 \uni2C17.ss04 
+	\uni2C18.ss04 \uni2C19.ss04 \uni2C1A.ss04 \uni2C1B.ss04 \uni2C1C.ss04 
+	\uni2C1D.ss04 \uni2C1E.ss04 \uni2C1F.ss04 \uni2C20.ss04 \uni2C21.ss04 
+	\uni2C22.ss04 \uni2C23.ss04 \uni2C24.ss04 \uni2C25.ss04 \uni2C26.ss04 
+	\uni2C27.ss04 \uni2C28.ss04 \uni2C29.ss04 \uni2C2A.ss04 \uni2C2B.ss04 
+	\uni2C2C.ss04 \uni2C2D.ss04 \uni2C2E.ss04 \uni2C30.ss04 \uni2C31.ss04 
+	\uni2C32.ss04 \uni2C33.ss04 \uni2C34.ss04 \uni2C35.ss04 \uni2C36.ss04 
+	\uni2C37.ss04 \uni2C38.ss04 \uni2C39.ss04 \uni2C3A.ss04 \uni2C3B.ss04 
+	\uni2C3C.ss04 \uni2C3D.ss04 \uni2C3E.ss04 \uni2C3F.ss04 \uni2C40.ss04 
+	\uni2C41.ss04 \uni2C42.ss04 \uni2C43.ss04 \uni2C44.ss04 \uni2C45.ss04 
+	\uni2C46.ss04 \uni2C47.ss04 \uni2C48.ss04 \uni2C49.ss04 \uni2C4A.ss04 
+	\uni2C4B.ss04 \uni2C4C.ss04 \uni2C4D.ss04 \uni2C4E.ss04 \uni2C4F.ss04 
+	\uni2C50.ss04 \uni2C51.ss04 \uni2C52.ss04 \uni2C53.ss04 \uni2C54.ss04 
+	\uni2C55.ss04 \uni2C56.ss04 \uni2C57.ss04 \uni2C58.ss04 \uni2C59.ss04 
+	\uni2C5A.ss04 \uni2C5B.ss04 \uni2C5C.ss04 \uni2C5D.ss04 \uni2C5E.ss04 \uF02E0 
+	\uF02E1 \uF02E2 \uF02E3 \uF02E4 \uF02E5 \uF02E7 \uF02E8 \uF02EA \uF02EB \uF02ED 
+	\uF02EE \uF02F0 \uF02F1 \uF02F3 \uF02F4 \uni2C5F.ss03 \uni2C5F.ss04 \uni2C2F 
 	\uni2C5F \uni2C2F.ss04 \uni261E \uF0134 \uF0135 \uF0136 \uF0137 \uF0138 \uF0139 
 	\uF013A \uF013B \circumflex \ring \tilde \guilsinglleft \guilsinglright 
 	\fraction \uni2074 \minus \uni2215 ];

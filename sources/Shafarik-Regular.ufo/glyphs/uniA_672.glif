@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniA672" format="2">
+  <advance width="100"/>
+  <unicode hex="A672"/>
+  <anchor x="-560" y="223" name="_Numeral"/>
+  <outline>
+    <contour>
+      <point x="-87.2803" y="556.58" type="line"/>
+      <point x="-301.12" y="556.58" type="line"/>
+      <point x="-301.12" y="597.62" type="line"/>
+      <point x="-87.2803" y="597.62" type="line"/>
+    </contour>
+    <contour>
+      <point x="68.7197" y="202.58" type="line"/>
+      <point x="-145.12" y="202.58" type="line"/>
+      <point x="-145.12" y="243.62" type="line"/>
+      <point x="68.7197" y="243.62" type="line"/>
+    </contour>
+    <contour>
+      <point x="-461.68" y="677.78" type="line"/>
+      <point x="-547" y="677.78" type="line"/>
+      <point x="-547" y="592.46" type="line"/>
+      <point x="-590.199" y="592.46" type="line"/>
+      <point x="-590.199" y="677.78" type="line"/>
+      <point x="-675.521" y="677.78" type="line"/>
+      <point x="-675.521" y="718.819" type="line"/>
+      <point x="-590.199" y="718.819" type="line"/>
+      <point x="-590.199" y="804.141" type="line"/>
+      <point x="-547" y="804.141" type="line"/>
+      <point x="-547" y="718.819" type="line"/>
+      <point x="-461.68" y="718.819" type="line"/>
+    </contour>
+    <contour>
+      <point x="-87.2803" y="-159.819" type="line"/>
+      <point x="-301.12" y="-159.819" type="line"/>
+      <point x="-301.12" y="-118.78" type="line"/>
+      <point x="-87.2803" y="-118.78" type="line"/>
+    </contour>
+    <contour>
+      <point x="-807.28" y="556.58" type="line"/>
+      <point x="-1021.12" y="556.58" type="line"/>
+      <point x="-1021.12" y="597.62" type="line"/>
+      <point x="-807.28" y="597.62" type="line"/>
+    </contour>
+    <contour>
+      <point x="-465.28" y="-296.62" type="line"/>
+      <point x="-679.12" y="-296.62" type="line"/>
+      <point x="-679.12" y="-255.58" type="line"/>
+      <point x="-465.28" y="-255.58" type="line"/>
+    </contour>
+    <contour>
+      <point x="-972.88" y="202.58" type="line"/>
+      <point x="-1186.72" y="202.58" type="line"/>
+      <point x="-1186.72" y="243.62" type="line"/>
+      <point x="-972.88" y="243.62" type="line"/>
+    </contour>
+    <contour>
+      <point x="-808.479" y="-161.02" type="line"/>
+      <point x="-1022.32" y="-161.02" type="line"/>
+      <point x="-1022.32" y="-119.98" type="line"/>
+      <point x="-808.479" y="-119.98" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-297</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-161</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>203</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>557</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>678</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-590</integer>
+            <key>width</key>
+            <integer>43</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -63,8 +63,10 @@ for some reason.
 
 ## Features
 
-See the [documentation file](documentation/DESCRIPTION.en_us.html)
-for a description of the features.
+See the [documentation file](documentation/documentation.pdf)
+for a description of the features. Presently the documentation
+is available as a PDF document, eventually this document will be
+converted to a webpage.
 
 ## More Church Slavonic Fonts
 

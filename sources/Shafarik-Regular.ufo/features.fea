@@ -1781,8 +1781,8 @@ lookup markMarkPositioning {
   markClass [\uni032F \uni032E ] <anchor -220 0> @Below;
   markClass [\uni0332 ] <anchor -320 -1> @Below;
   markClass [\uni1DF9 ] <anchor 0 0> @Below;
-  markClass [\uni0487 \tau ] <anchor -301 656> @Above;
-  markClass [\uni0483 \sigma ] <anchor -223 590> @Above;
+  markClass [\uni0487 \gcaron ] <anchor -301 656> @Above;
+  markClass [\uni0483 \Gcaron ] <anchor -223 590> @Above;
   markClass [\uni0484 ] <anchor -188 714> @Above;
   markClass [\gravecomb ] <anchor -92 575> @Above;
   markClass [\acutecomb ] <anchor -208 575> @Above;
@@ -1792,23 +1792,23 @@ lookup markMarkPositioning {
   markClass [\uni030B ] <anchor -204 580> @Above;
   markClass [\uni030F ] <anchor -108 582> @Above;
   markClass [\uni0311 ] <anchor 1 565> @Above;
-  markClass [\uni2DE0 \psi ] <anchor -153 532> @Above;
-  markClass [\uni2DE1 \uni2DE6 \uni2DE7 \uni2DEE \uni2DEF \uniF4E1 \uniF4E6 \uniF4E7 \uniF4EE \uniF4EF \omega \omegatonos \uni03CF \omega1 \uni03D7 ] <anchor -152 533> @Above;
-  markClass [\uni2DE2 \uniF4E2 \iotadieresis ] <anchor -154 533> @Above;
-  markClass [\uni2DE3 \uniF4E3 \upsilondieresis ] <anchor -137 492> @Above;
-  markClass [\uni2DE4 \uniF4E4 \uniE0BA \omicrontonos ] <anchor -140 533> @Above;
-  markClass [\uni2DE8 \uniF4E8 \uni03D0 ] <anchor -128 533> @Above;
-  markClass [\uni2DE9 \uni2DF1 \uni2DF8 \uniF4E9 \uniF4F1 \uniF4F8 \theta1 \uni03D9 ] <anchor -137 533> @Above;
-  markClass [\uni2DEA \uniF4EA \Upsilon1 ] <anchor -132 529> @Above;
-  markClass [\uni2DEB \uni2DF7 \uniF4EB \uniF4F7 \uni03D3 ] <anchor -135 533> @Above;
-  markClass [\uni2DEC \uniF4EC \uni03D4 ] <anchor -152 453> @Above;
-  markClass [\uni2DED \uniF4ED \phi1 ] <anchor -139 529> @Above;
-  markClass [\uni2DF0 \uniF4F0 \uni03D8 ] <anchor -135 473> @Above;
-  markClass [\uni2DF2 \uni2DF4 \uni2DF6 \uniA678 \uniA679 \uniA67A \uniA69F \uniF4F2 \uniF4F4 \uniF4F6 \uniF678 \uniF679 \uniF67A \uniF69F \uniF6A0 \uni03DA \uni03DC \uni03DE ] <anchor -156 533> @Above;
-  markClass [\uni2DF3 \uniF4F3 \uni03DB ] <anchor -156 481> @Above;
-  markClass [\uni2DF9 \uniF4F9 ] <anchor -138 532> @Above;
-  markClass [\uni2DFA \uniA676 \uniF4FA \uniF676 \uniE0BB ] <anchor -116 533> @Above;
-  markClass [\uni2DFD \uniF4FD ] <anchor -121 533> @Above;
+  markClass [\uni2DE0 \uni0202 ] <anchor -153 532> @Above;
+  markClass [\uni2DE1 \uni2DE6 \uni2DE7 \uni2DEE \uni2DEF \uniF4E1 \uniF4E6 \uniF4E7 \uniF4EE \uniF4EF \uni0203 \uni0211 \uni0212 \uni021C \uni0221 ] <anchor -152 533> @Above;
+  markClass [\uni2DE2 \uniF4E2 \uni0204 ] <anchor -154 533> @Above;
+  markClass [\uni2DE3 \uniF4E3 \uni0205 ] <anchor -137 492> @Above;
+  markClass [\uni2DE4 \uniF4E4 \uniE0BA \uni0209 ] <anchor -140 533> @Above;
+  markClass [\uni2DE8 \uniF4E8 \uni0213 ] <anchor -128 533> @Above;
+  markClass [\uni2DE9 \uni2DF1 \uni2DF8 \uniF4E9 \uniF4F1 \uniF4F8 \uni0214 \uni0223 ] <anchor -137 533> @Above;
+  markClass [\uni2DEA \uniF4EA \uni0215 ] <anchor -132 529> @Above;
+  markClass [\uni2DEB \uni2DF7 \uniF4EB \uniF4F7 \uni0206 \scommaaccent ] <anchor -135 533> @Above;
+  markClass [\uni2DEC \uniF4EC \uni021A ] <anchor -152 453> @Above;
+  markClass [\uni2DED \uniF4ED \uni021B ] <anchor -139 529> @Above;
+  markClass [\uni2DF0 \uniF4F0 \uni0222 ] <anchor -135 473> @Above;
+  markClass [\uni2DF2 \uni2DF4 \uni2DF6 \uniA678 \uniA679 \uniA67A \uniA69F \uniF4F2 \uniF4F4 \uniF4F6 \uniF678 \uniF679 \uniF67A \uniF69F \uniF6A0 \uni0201 \uni0208 \uni0224 \uni0233 \uni01E8 ] <anchor -156 533> @Above;
+  markClass [\uni2DF3 \uniF4F3 \uni0225 ] <anchor -156 481> @Above;
+  markClass [\uni2DF9 \uniF4F9 \uni021F ] <anchor -138 532> @Above;
+  markClass [\uni2DFA \uniA676 \uniF4FA \uniF676 \uniE0BB \uni020F \uni022A ] <anchor -116 533> @Above;
+  markClass [\uni2DFD \uniF4FD \uni022D ] <anchor -121 533> @Above;
   markClass [\uni2DFE \uniF4FE ] <anchor -138 533> @Above;
   markClass [\uniA66F ] <anchor -215 537> @Above;
   markClass [\uniA677 \uniF677 ] <anchor -156 503> @Above;
@@ -1853,7 +1853,7 @@ lookup markMarkPositioning {
   markClass [\u1E028 ] <anchor -334 454> @Above;
   markClass [\u1E029 ] <anchor -310 455> @Above;
   markClass [\u1E02A ] <anchor -201 454> @Above;
-  markClass [\uniA675 \uniF675 ] <anchor -136 533> @Above;
+  markClass [\uniA675 \uniF675 \uni020D ] <anchor -136 533> @Above;
   markClass [\uni0485 ] <anchor -142 525> @Above;
   markClass [\uni0486 ] <anchor -222 518> @Above;
   markClass [\uni0483.salt2 \uniA66F.salt1 \uni0303.salt6 \uni0483.salt1 \uni0483.salt3 \uni0303.salt4 \uni0303.salt5 \uni0303.salt7 \uni0487.salt1 \uni0483.salt5 \uni0483.salt7 \uni0487.salt2 ] <anchor -1 590> @Above;
@@ -1871,10 +1871,10 @@ lookup markMarkPositioning {
   markClass [\uniA674 \uniF674 ] <anchor -126 533> @Above;
   markClass [\uniA67B \uniA67D \uniE0B3 \uniF67B \uniE098 \uniE055 \uniE056 \uniE057 \uniE0BD \uniE0BC \uniE0B1 \uniE0B4 ] <anchor -146 533> @Above;
   markClass [\uniA67C ] <anchor -142 533> @Above;
-  markClass [\uniA69E \uniF69E ] <anchor -161 483> @Above;
+  markClass [\uniA69E \uniF69E \uni0220 ] <anchor -161 483> @Above;
   markClass [\uni1DC0 ] <anchor -192 535> @Above;
   markClass [\uni1DC1 ] <anchor -182 535> @Above;
-  markClass [\uni2DE5 \uniF4E5 \upsilontonos ] <anchor -133 532> @Above;
+  markClass [\uni2DE5 \uniF4E5 \uni020B ] <anchor -133 532> @Above;
   markClass [\uni2DFB \uniF4FB ] <anchor -186 533> @Above;
   markClass [\uni2DFC \uniF4FC ] <anchor -156 534> @Above;
   markClass [\uniE000 ] <anchor -330 833> @Above;
@@ -1885,7 +1885,7 @@ lookup markMarkPositioning {
   markClass [\uniFE26 ] <anchor -340 590> @Above;
   markClass [\uniFE2E ] <anchor -397 590> @Above;
   markClass [\uniFE2F ] <anchor -57 590> @Above;
-  markClass [\uni2DF5 \uniF4F5 \uF0098 \uni03DD ] <anchor -206 533> @Above;
+  markClass [\uni2DF5 \uniF4F5 \uF0098 ] <anchor -206 533> @Above;
   markClass [\uni2DFF \uniF4FF ] <anchor -166 534> @Above;
   markClass [\uni0303.salt1 \uni0303.salt2 ] <anchor -1 589> @Above;
   markClass [\uni0303.salt3 ] <anchor -1 590> @Above;
@@ -1928,37 +1928,37 @@ lookup markMarkPositioning {
 	<anchor 420 1> mark @Below
 	<anchor 545 768> mark @AboveRight
 	<anchor 285 768> mark @AboveLeft;
-  pos base [\afii10065 \Alpha ] <anchor 391 576> mark @Double
+  pos base [\afii10065 \uni0195 ] <anchor 391 576> mark @Double
 	<anchor 200 578> mark @Above
 	<anchor 200 1> mark @Below
 	<anchor 330 576> mark @AboveRight
 	<anchor 70 578> mark @AboveLeft;
-  pos base [\afii10066 \afii10094 \Beta \epsilontonos ] <anchor 410 576> mark @Double
+  pos base [\afii10066 \afii10094 \uni0196 \uni01BD ] <anchor 410 576> mark @Double
 	<anchor 80 578> mark @AboveLeft
 	<anchor 340 576> mark @AboveRight
 	<anchor 210 1> mark @Below
 	<anchor 210 578> mark @Above;
-  pos base [\afii10067 \afii10082 \afii10083 \Gamma \Rho \uni03A2 ] <anchor 416 576> mark @Double
+  pos base [\afii10067 \afii10082 \afii10083 \uni0197 \uni01AE \Uhorn ] <anchor 416 576> mark @Double
 	<anchor 210 578> mark @Above
 	<anchor 210 1> mark @Below
 	<anchor 340 576> mark @AboveRight
 	<anchor 80 578> mark @AboveLeft;
-  pos base [\afii10068 \afii10100 \uni0394 ] <anchor 340 576> mark @Double
+  pos base [\afii10068 \afii10100 \uni0198 ] <anchor 340 576> mark @Double
 	<anchor 175 578> mark @Above
 	<anchor 175 1> mark @Below
 	<anchor 305 576> mark @AboveRight
 	<anchor 45 578> mark @AboveLeft;
-  pos base [\afii10069 \Epsilon ] <anchor 453 576> mark @Double
+  pos base [\afii10069 \uni0199 ] <anchor 453 576> mark @Double
 	<anchor 220 578> mark @Above
 	<anchor 220 1> mark @Below
 	<anchor 350 576> mark @AboveRight
 	<anchor 90 578> mark @AboveLeft;
-  pos base [\afii10070 \afii10095 \uni0450 \Zeta \etatonos ] <anchor 422 576> mark @Double
+  pos base [\afii10070 \afii10095 \uni0450 \uni019A \uni01C0 ] <anchor 422 576> mark @Double
 	<anchor 220 578> mark @Above
 	<anchor 220 1> mark @Below
 	<anchor 350 576> mark @AboveRight
 	<anchor 90 578> mark @AboveLeft;
-  pos base [\afii10072 \uni0465 \Eta \zeta ] <anchor 593 576> mark @Double
+  pos base [\afii10072 \uni0465 \uni019C \uni019D ] <anchor 593 576> mark @Double
 	<anchor 300 578> mark @Above
 	<anchor 300 1> mark @Below
 	<anchor 430 576> mark @AboveRight
@@ -1968,7 +1968,7 @@ lookup markMarkPositioning {
 	<anchor 290 1> mark @Below
 	<anchor 420 768> mark @AboveRight
 	<anchor 160 768> mark @AboveLeft;
-  pos base [\afii10073 \afii10074 \afii10101 \uni045D \uniE1D6 \uniE1D7 \Theta \Iota \upsilondieresistonos ] <anchor 460 576> mark @Double
+  pos base [\afii10073 \afii10074 \afii10101 \uni045D \uniE1D6 \uniE1D7 \uni019B \uni019F \ohorn ] <anchor 460 576> mark @Double
 	<anchor 230 578> mark @Above
 	<anchor 230 1> mark @Below
 	<anchor 360 576> mark @AboveRight
@@ -2013,37 +2013,37 @@ lookup markMarkPositioning {
 	<anchor 310 1> mark @Below
 	<anchor 420 768> mark @AboveRight
 	<anchor 160 768> mark @AboveLeft;
-  pos base [\afii10076 \Lambda ] <anchor 409 576> mark @Double
+  pos base [\afii10076 \uni01A5 ] <anchor 409 576> mark @Double
 	<anchor 200 578> mark @Above
 	<anchor 200 1> mark @Below
 	<anchor 330 576> mark @AboveRight
 	<anchor 70 578> mark @AboveLeft;
-  pos base [\afii10077 \Mu ] <anchor 405 576> mark @Double
+  pos base [\afii10077 \uni01A6 ] <anchor 405 576> mark @Double
 	<anchor 200 578> mark @Above
 	<anchor 200 1> mark @Below
 	<anchor 330 576> mark @AboveRight
 	<anchor 70 578> mark @AboveLeft;
-  pos base [\afii10078 \Nu ] <anchor 576 576> mark @Double
+  pos base [\afii10078 \uni01A7 ] <anchor 576 576> mark @Double
 	<anchor 285 578> mark @Above
 	<anchor 285 1> mark @Below
 	<anchor 415 576> mark @AboveRight
 	<anchor 155 578> mark @AboveLeft;
-  pos base [\afii10079 \Xi ] <anchor 459 576> mark @Double
+  pos base [\afii10079 \uni01A8 ] <anchor 459 576> mark @Double
 	<anchor 230 578> mark @Above
 	<anchor 230 1> mark @Below
 	<anchor 360 576> mark @AboveRight
 	<anchor 100 578> mark @AboveLeft;
-  pos base [\afii10080 \Omicron ] <anchor 464 576> mark @Double
+  pos base [\afii10080 \uni01A9 ] <anchor 464 576> mark @Double
 	<anchor 230 578> mark @Above
 	<anchor 230 1> mark @Below
 	<anchor 360 576> mark @AboveRight
 	<anchor 100 578> mark @AboveLeft;
-  pos base [\afii10081 \afii10193 \Pi ] <anchor 458 576> mark @Double
+  pos base [\afii10081 \afii10193 \uni01AD ] <anchor 458 576> mark @Double
 	<anchor 230 578> mark @Above
 	<anchor 230 1> mark @Below
 	<anchor 360 576> mark @AboveRight
 	<anchor 100 578> mark @AboveLeft;
-  pos base [\afii10084 \Sigma ] <anchor 436 576> mark @Double
+  pos base [\afii10084 \uhorn ] <anchor 436 576> mark @Double
 	<anchor 220 578> mark @Above
 	<anchor 220 1> mark @Below
 	<anchor 350 576> mark @AboveRight
@@ -2053,7 +2053,7 @@ lookup markMarkPositioning {
 	<anchor 290 1> mark @Below
 	<anchor 420 768> mark @AboveRight
 	<anchor 160 768> mark @AboveLeft;
-  pos base [\afii10085 \Tau ] <anchor 428 576> mark @Double
+  pos base [\afii10085 \uni01B1 ] <anchor 428 576> mark @Double
 	<anchor 200 578> mark @Above
 	<anchor 200 1> mark @Below
 	<anchor 330 576> mark @AboveRight
@@ -2098,37 +2098,37 @@ lookup markMarkPositioning {
 	<anchor 270 1> mark @Below
 	<anchor 400 768> mark @AboveRight
 	<anchor 140 768> mark @AboveLeft;
-  pos base [\afii10086 \Upsilon ] <anchor 638 736> mark @Double
+  pos base [\afii10086 \uni01B4 ] <anchor 638 736> mark @Double
 	<anchor 319 738> mark @Above
 	<anchor 319 1> mark @Below
 	<anchor 449 736> mark @AboveRight
 	<anchor 189 738> mark @AboveLeft;
-  pos base [\afii10087 \Phi ] <anchor 424 576> mark @Double
+  pos base [\afii10087 \uni01B5 ] <anchor 424 576> mark @Double
 	<anchor 200 578> mark @Above
 	<anchor 200 1> mark @Below
 	<anchor 330 576> mark @AboveRight
 	<anchor 70 578> mark @AboveLeft;
-  pos base [\afii10088 \uniA661 \Chi ] <anchor 456 576> mark @Double
+  pos base [\afii10088 \uniA661 \uni01B6 ] <anchor 456 576> mark @Double
 	<anchor 230 578> mark @Above
 	<anchor 230 1> mark @Below
 	<anchor 360 576> mark @AboveRight
 	<anchor 100 578> mark @AboveLeft;
-  pos base [\afii10089 \uniA641 \uniA643 \uniA64B \uniA649 \Psi \phi \chi ] <anchor 448 576> mark @Double
+  pos base [\afii10089 \uniA641 \uniA643 \uniA64B \uniA649 \Ohorn \uni01B3 \uni01B7 ] <anchor 448 576> mark @Double
 	<anchor 220 578> mark @Above
 	<anchor 220 1> mark @Below
 	<anchor 350 576> mark @AboveRight
 	<anchor 90 578> mark @AboveLeft;
-  pos base [\afii10090 \afii10091 \uni03A9 \Iotadieresis ] <anchor 683 576> mark @Double
+  pos base [\afii10090 \afii10091 \uni01B8 \uni01B9 ] <anchor 683 576> mark @Double
 	<anchor 350 578> mark @Above
 	<anchor 350 1> mark @Below
 	<anchor 480 576> mark @AboveRight
 	<anchor 220 578> mark @AboveLeft;
-  pos base [\afii10092 \Upsilondieresis ] <anchor 504 576> mark @Double
+  pos base [\afii10092 \uni01BA ] <anchor 504 576> mark @Double
 	<anchor 190 578> mark @Above
 	<anchor 190 1> mark @Below
 	<anchor 320 576> mark @AboveRight
 	<anchor 60 578> mark @AboveLeft;
-  pos base [\afii10093 \alphatonos ] <anchor 589 576> mark @Double
+  pos base [\afii10093 \uni01BB ] <anchor 589 576> mark @Double
 	<anchor 310 578> mark @Above
 	<anchor 310 1> mark @Below
 	<anchor 440 576> mark @AboveRight
@@ -2138,7 +2138,7 @@ lookup markMarkPositioning {
 	<anchor 420 1> mark @Below
 	<anchor 550 768> mark @AboveRight
 	<anchor 290 768> mark @AboveLeft;
-  pos base [\afii10096 \iotatonos ] <anchor 647 576> mark @Double
+  pos base [\afii10096 \uni01BF ] <anchor 647 576> mark @Double
 	<anchor 290 578> mark @Above
 	<anchor 290 1> mark @Below
 	<anchor 420 576> mark @AboveRight
@@ -2148,7 +2148,7 @@ lookup markMarkPositioning {
 	<anchor 250 1> mark @Below
 	<anchor 380 768> mark @AboveRight
 	<anchor 120 768> mark @AboveLeft;
-  pos base [\afii10102 \alpha ] <anchor 396 576> mark @Double
+  pos base [\afii10102 \uni019E ] <anchor 396 576> mark @Double
 	<anchor 190 578> mark @Above
 	<anchor 190 1> mark @Below
 	<anchor 320 576> mark @AboveRight
@@ -2158,7 +2158,7 @@ lookup markMarkPositioning {
 	<anchor 150 1> mark @Below
 	<anchor 270 768> mark @AboveRight
 	<anchor 10 768> mark @AboveLeft;
-  pos base [\afii10103 \beta ] <anchor 224 576> mark @Double
+  pos base [\afii10103 \uni01A3 ] <anchor 224 576> mark @Double
 	<anchor 117 578> mark @Above
 	<anchor 117 1> mark @Below
 	<anchor 247 576> mark @AboveRight
@@ -2168,7 +2168,7 @@ lookup markMarkPositioning {
 	<anchor 165 1> mark @Below
 	<anchor 290 986> mark @AboveRight
 	<anchor 30 988> mark @AboveLeft;
-  pos base [\afii10104 \gamma ] <anchor 292 756> mark @Double
+  pos base [\afii10104 \uni01A4 ] <anchor 292 756> mark @Double
 	<anchor 140 758> mark @Above
 	<anchor 140 1> mark @Below
 	<anchor 270 756> mark @AboveRight
@@ -2178,7 +2178,7 @@ lookup markMarkPositioning {
 	<anchor 290 1> mark @Below
 	<anchor 420 768> mark @AboveRight
 	<anchor 160 768> mark @AboveLeft;
-  pos base [\afii10194 \uniA663 \epsilon ] <anchor 490 576> mark @Double
+  pos base [\afii10194 \uniA663 \uni01BE ] <anchor 490 576> mark @Double
 	<anchor 210 578> mark @Above
 	<anchor 210 1> mark @Below
 	<anchor 340 576> mark @AboveRight
@@ -2193,12 +2193,12 @@ lookup markMarkPositioning {
 	<anchor 420 1> mark @Below
 	<anchor 550 768> mark @AboveRight
 	<anchor 290 768> mark @AboveLeft;
-  pos base [\uni047F \sigma1 ] <anchor 612 576> mark @Double
+  pos base [\uni047F \uni01AC ] <anchor 612 576> mark @Double
 	<anchor 307 578> mark @Above
 	<anchor 312 1> mark @Below
 	<anchor 437 576> mark @AboveRight
 	<anchor 177 578> mark @AboveLeft;
-  pos base [\uni0461 \uniED55 \uniED5C \delta ] <anchor 616 576> mark @Double
+  pos base [\uni0461 \uniED55 \uniED5C \uni01AB ] <anchor 616 576> mark @Double
 	<anchor 309 578> mark @Above
 	<anchor 312 1> mark @Below
 	<anchor 442 576> mark @AboveRight
@@ -2208,7 +2208,7 @@ lookup markMarkPositioning {
 	<anchor 290 1> mark @Below
 	<anchor 420 768> mark @AboveRight
 	<anchor 160 768> mark @AboveLeft;
-  pos base [\afii10196 \uni0477 \xi \omicron ] <anchor 425 576> mark @Double
+  pos base [\afii10196 \uni0477 \uni01C8 \uni01C9 ] <anchor 425 576> mark @Double
 	<anchor 200 578> mark @Above
 	<anchor 200 1> mark @Below
 	<anchor 330 576> mark @AboveRight
@@ -2218,7 +2218,7 @@ lookup markMarkPositioning {
 	<anchor 850 1> mark @Below
 	<anchor 980 768> mark @AboveRight
 	<anchor 720 768> mark @AboveLeft;
-  pos base [\uni0479 \pi ] <anchor 865 576> mark @Double
+  pos base [\uni0479 \uni01B2 ] <anchor 865 576> mark @Double
 	<anchor 660 578> mark @Above
 	<anchor 660 1> mark @Below
 	<anchor 790 576> mark @AboveRight
@@ -2228,7 +2228,7 @@ lookup markMarkPositioning {
 	<anchor 320 1> mark @Below
 	<anchor 450 768> mark @AboveRight
 	<anchor 190 768> mark @AboveLeft;
-  pos base [\uni0467 \eta ] <anchor 495 576> mark @Double
+  pos base [\uni0467 \uni01C1 ] <anchor 495 576> mark @Double
 	<anchor 240 578> mark @Above
 	<anchor 240 1> mark @Below
 	<anchor 370 576> mark @AboveRight
@@ -2238,7 +2238,7 @@ lookup markMarkPositioning {
 	<anchor 600 1> mark @Below
 	<anchor 730 768> mark @AboveRight
 	<anchor 470 768> mark @AboveLeft;
-  pos base [\uni0469 \theta ] <anchor 707 576> mark @Double
+  pos base [\uni0469 \uni01C2 ] <anchor 707 576> mark @Double
 	<anchor 450 578> mark @Above
 	<anchor 450 1> mark @Below
 	<anchor 580 576> mark @AboveRight
@@ -2248,7 +2248,7 @@ lookup markMarkPositioning {
 	<anchor 650 1> mark @Below
 	<anchor 780 768> mark @AboveRight
 	<anchor 520 768> mark @AboveLeft;
-  pos base [\uni046D \kappa ] <anchor 770 576> mark @Double
+  pos base [\uni046D \uni01C4 ] <anchor 770 576> mark @Double
 	<anchor 496 578> mark @Above
 	<anchor 496 1> mark @Below
 	<anchor 626 576> mark @AboveRight
@@ -2258,7 +2258,7 @@ lookup markMarkPositioning {
 	<anchor 380 1> mark @Below
 	<anchor 510 768> mark @AboveRight
 	<anchor 250 768> mark @AboveLeft;
-  pos base [\uni046B \uniA65F \iota ] <anchor 567 576> mark @Double
+  pos base [\uni046B \uniA65F \uni01C3 ] <anchor 567 576> mark @Double
 	<anchor 284 578> mark @Above
 	<anchor 284 1> mark @Below
 	<anchor 414 576> mark @AboveRight
@@ -2268,7 +2268,7 @@ lookup markMarkPositioning {
 	<anchor 350 1> mark @Below
 	<anchor 480 768> mark @AboveRight
 	<anchor 220 768> mark @AboveLeft;
-  pos base [\uni0471 \uni03BC ] <anchor 536 715> mark @Double
+  pos base [\uni0471 \uni01C6 ] <anchor 536 715> mark @Double
 	<anchor 270 718> mark @Above
 	<anchor 270 1> mark @Below
 	<anchor 400 716> mark @AboveRight
@@ -2278,12 +2278,12 @@ lookup markMarkPositioning {
 	<anchor 250 1> mark @Below
 	<anchor 380 768> mark @AboveRight
 	<anchor 120 768> mark @AboveLeft;
-  pos base [\uni046F \lambda ] <anchor 344 576> mark @Double
+  pos base [\uni046F \uni01C5 ] <anchor 344 576> mark @Double
 	<anchor 180 578> mark @Above
 	<anchor 180 1> mark @Below
 	<anchor 310 576> mark @AboveRight
 	<anchor 50 578> mark @AboveLeft;
-  pos base [\afii10195 \nu ] <anchor 582 576> mark @Double
+  pos base [\afii10195 \uni01C7 ] <anchor 582 576> mark @Double
 	<anchor 290 578> mark @Above
 	<anchor 290 1> mark @Below
 	<anchor 420 576> mark @AboveRight
@@ -2293,7 +2293,7 @@ lookup markMarkPositioning {
 	<anchor 450 1> mark @Below
 	<anchor 580 768> mark @AboveRight
 	<anchor 320 768> mark @AboveLeft;
-  pos base [\uni047B \rho ] <anchor 615 576> mark @Double
+  pos base [\uni047B \uni01AA ] <anchor 615 576> mark @Double
 	<anchor 310 578> mark @Above
 	<anchor 310 1> mark @Below
 	<anchor 440 576> mark @AboveRight
@@ -2328,7 +2328,7 @@ lookup markMarkPositioning {
 	<anchor 290 1> mark @Below
 	<anchor 420 956> mark @AboveRight
 	<anchor 160 958> mark @AboveLeft;
-  pos base [\afii10075 \Kappa ] <anchor 460 796> mark @Double
+  pos base [\afii10075 \uni01A2 ] <anchor 460 796> mark @Double
 	<anchor 230 798> mark @Above
 	<anchor 230 1> mark @Below
 	<anchor 360 796> mark @AboveRight
@@ -2388,7 +2388,7 @@ lookup markMarkPositioning {
 	<anchor 540 1> mark @Below
 	<anchor 670 768> mark @AboveRight
 	<anchor 410 768> mark @AboveLeft;
-  pos base [\uniA651 \uniE465 \upsilon ] <anchor 700 576> mark @Double
+  pos base [\uniA651 \uniE465 \uni01BC ] <anchor 700 576> mark @Double
 	<anchor 250 578> mark @AboveLeft
 	<anchor 510 576> mark @AboveRight
 	<anchor 380 1> mark @Below
@@ -4963,38 +4963,38 @@ lookup markCyrillicNumerals {
   markClass [\uniEDD0 ] <anchor -219 240> @Numeral;
   markClass [\uniEDE0 ] <anchor -485 253> @Numeral;
   markClass [\uniEDF0 ] <anchor -390 233> @Numeral;
-  pos base [\afii10065 \afii10066 \afii10067 \afii10076 \afii10077 \afii10082 \afii10102 \afii10108 \afii10095 \afii10109 \afii10106 \afii10107 \afii10097 \afii10099 \alpha \Alpha \Beta \Gamma \Lambda \Mu \Rho \etatonos ] <anchor 196 218> mark @Numeral;
-  pos base [\afii10068 \uniA647 \afii10100 \afii10098 \uni0394 ] <anchor 176 218> mark @Numeral;
-  pos base [\afii10069 \afii10083 \uni1C80 \Epsilon \uni03A2 ] <anchor 216 218> mark @Numeral;
-  pos base [\afii10070 \Zeta ] <anchor 206 228> mark @Numeral;
-  pos base [\afii10072 \uniA653 \Eta ] <anchor 296 218> mark @Numeral;
-  pos base [\afii10073 \afii10074 \afii10079 \afii10081 \afii10075 \uniA641 \uniA643 \uniA64B \uniA649 \uniA659 \uniA661 \uniE201 \uniE401 \uni0450 \afii10071 \uni1C86 \uni1C81 \Theta \Iota \Kappa \Xi \Pi \phi \chi ] <anchor 226 218> mark @Numeral;
-  pos base [\afii10078 \Nu ] <anchor 276 218> mark @Numeral;
-  pos base [\afii10080 \Omicron ] <anchor 221 208> mark @Numeral;
-  pos base [\afii10084 \Sigma ] <anchor 206 268> mark @Numeral;
-  pos base [\afii10085 \afii10094 \afii10196 \uni0477 \uniA645 \afii10110 \uni1C87 \Tau \epsilontonos \xi \omicron ] <anchor 206 218> mark @Numeral;
-  pos base [\afii10086 \Upsilon ] <anchor 311 218> mark @Numeral;
-  pos base [\afii10087 \Phi ] <anchor 191 218> mark @Numeral;
-  pos base [\afii10088 \Chi ] <anchor 221 188> mark @Numeral;
-  pos base [\afii10089 \Psi ] <anchor 216 238> mark @Numeral;
-  pos base [\afii10090 \afii10091 \uni03A9 \Iotadieresis ] <anchor 351 218> mark @Numeral;
-  pos base [\afii10092 \afii10194 \uniA65B \uniA663 \uniA665 \Upsilondieresis \epsilon ] <anchor 256 218> mark @Numeral;
-  pos base [\afii10093 \uni1C83 \alphatonos ] <anchor 306 218> mark @Numeral;
-  pos base [\afii10096 \uni046B \uniA65F \uni04A5 \iotatonos \iota ] <anchor 286 218> mark @Numeral;
-  pos base [\afii10103 \uniE925 \beta ] <anchor 116 218> mark @Numeral;
-  pos base [\afii10104 \gamma ] <anchor 136 218> mark @Numeral;
-  pos base [\uni0465 \uni047B \uniA657 \uniA66B \uniE50B \uniA65D \zeta \rho ] <anchor 316 218> mark @Numeral;
-  pos base [\uni047F \sigma1 ] <anchor 301 218> mark @Numeral;
-  pos base [\uni0461 \delta ] <anchor 309 218> mark @Numeral;
-  pos base [\uni0479 \pi ] <anchor 456 218> mark @Numeral;
-  pos base [\uni0467 \uniE1D6 \eta ] <anchor 246 218> mark @Numeral;
-  pos base [\uni0469 \uniA651 \uniE465 \theta \upsilon ] <anchor 376 218> mark @Numeral;
-  pos base [\uni046D \kappa ] <anchor 406 218> mark @Numeral;
-  pos base [\uni0471 \uni03BC ] <anchor 256 278> mark @Numeral;
-  pos base [\uni046F \lambda ] <anchor 161 168> mark @Numeral;
-  pos base [\afii10195 \nu ] <anchor 291 218> mark @Numeral;
+  pos base [\afii10065 \afii10066 \afii10067 \afii10076 \afii10077 \afii10082 \afii10102 \afii10108 \afii10095 \afii10109 \afii10106 \afii10107 \afii10097 \afii10099 \uni0195 \uni0196 \uni0197 \uni019E \uni01A5 \uni01A6 \uni01AE \uni01C0 ] <anchor 196 218> mark @Numeral;
+  pos base [\afii10068 \uniA647 \afii10100 \afii10098 \uni0198 ] <anchor 176 218> mark @Numeral;
+  pos base [\afii10069 \afii10083 \uni1C80 \uni0199 \Uhorn ] <anchor 216 218> mark @Numeral;
+  pos base [\afii10070 \uni019A ] <anchor 206 228> mark @Numeral;
+  pos base [\afii10072 \uniA653 \uni019D ] <anchor 296 218> mark @Numeral;
+  pos base [\afii10073 \afii10074 \afii10079 \afii10081 \afii10075 \uniA641 \uniA643 \uniA64B \uniA649 \uniA659 \uniA661 \uniE201 \uniE401 \uni0450 \afii10071 \uni1C86 \uni1C81 \uni019F \Ohorn \ohorn \uni01A2 \uni01A8 \uni01AD \uni01B3 ] <anchor 226 218> mark @Numeral;
+  pos base [\afii10078 \uni01A7 ] <anchor 276 218> mark @Numeral;
+  pos base [\afii10080 \uni01A9 ] <anchor 221 208> mark @Numeral;
+  pos base [\afii10084 \uhorn ] <anchor 206 268> mark @Numeral;
+  pos base [\afii10085 \afii10094 \afii10196 \uni0477 \uniA645 \afii10110 \uni1C87 \uni01B1 \uni01BD \uni01C8 \uni01C9 ] <anchor 206 218> mark @Numeral;
+  pos base [\afii10086 \uni01B4 ] <anchor 311 218> mark @Numeral;
+  pos base [\afii10087 \uni01B5 ] <anchor 191 218> mark @Numeral;
+  pos base [\afii10088 \uni01B6 ] <anchor 221 188> mark @Numeral;
+  pos base [\afii10089 \uni01B7 ] <anchor 216 238> mark @Numeral;
+  pos base [\afii10090 \afii10091 \uni01B8 \uni01B9 ] <anchor 351 218> mark @Numeral;
+  pos base [\afii10092 \afii10194 \uniA65B \uniA663 \uniA665 \uni01BA \uni01BE ] <anchor 256 218> mark @Numeral;
+  pos base [\afii10093 \uni1C83 \uni01BB ] <anchor 306 218> mark @Numeral;
+  pos base [\afii10096 \uni046B \uniA65F \uni04A5 \uni01BF \uni01C3 ] <anchor 286 218> mark @Numeral;
+  pos base [\afii10103 \uniE925 \uni01A3 ] <anchor 116 218> mark @Numeral;
+  pos base [\afii10104 \uni01A4 ] <anchor 136 218> mark @Numeral;
+  pos base [\uni0465 \uni047B \uniA657 \uniA66B \uniE50B \uniA65D \uni019C \uni01AA ] <anchor 316 218> mark @Numeral;
+  pos base [\uni047F \uni01AC ] <anchor 301 218> mark @Numeral;
+  pos base [\uni0461 \uni01AB ] <anchor 309 218> mark @Numeral;
+  pos base [\uni0479 \uni01B2 ] <anchor 456 218> mark @Numeral;
+  pos base [\uni0467 \uniE1D6 \uni01C1 ] <anchor 246 218> mark @Numeral;
+  pos base [\uni0469 \uniA651 \uniE465 \uni01BC \uni01C2 ] <anchor 376 218> mark @Numeral;
+  pos base [\uni046D \uni01C4 ] <anchor 406 218> mark @Numeral;
+  pos base [\uni0471 \uni01C6 ] <anchor 256 278> mark @Numeral;
+  pos base [\uni046F \uni01C5 ] <anchor 161 168> mark @Numeral;
+  pos base [\afii10195 \uni01C7 ] <anchor 291 218> mark @Numeral;
   pos base [\uni0481 \uniA64F \uniE1D7 ] <anchor 236 218> mark @Numeral;
-  pos base [\afii10101 \upsilondieresistonos ] <anchor 236 228> mark @Numeral;
+  pos base [\afii10101 \uni019B ] <anchor 236 228> mark @Numeral;
   pos base [\afii10105 ] <anchor 86 218> mark @Numeral;
   pos base [\uniA655 ] <anchor 336 218> mark @Numeral;
   pos base [\uniA669 \afii10193 \uni045D ] <anchor 231 218> mark @Numeral;
@@ -5013,8 +5013,8 @@ lookup markCyrillicNumerals {
 
 lookup mkmkMarktoMarkPositioning {
   lookupflag 0;
-  markClass [\uni0487 \tau ] <anchor -300 731> @Stacking;
-  markClass [\uni0483 \sigma ] <anchor -223 590> @Stacking;
+  markClass [\uni0487 \gcaron ] <anchor -300 731> @Stacking;
+  markClass [\uni0483 \Gcaron ] <anchor -223 590> @Stacking;
   markClass [\uni0484 ] <anchor -62 712> @Stacking;
   markClass [\gravecomb ] <anchor -91 577> @Stacking;
   markClass [\acutecomb ] <anchor -207 575> @Stacking;
@@ -5025,22 +5025,22 @@ lookup mkmkMarktoMarkPositioning {
   markClass [\uni030F ] <anchor -109 582> @Stacking;
   markClass [\uni0311 ] <anchor -1 565> @Stacking;
   markClass [\uni033E ] <anchor -83 511> @Stacking;
-  markClass [\uni2DE0 \psi ] <anchor -153 532> @Stacking;
-  markClass [\uni2DE1 \uni2DE6 \uni2DE7 \uni2DEE \uni2DEF \uniF4E0 \uniF4E1 \uniF4E6 \uniF4E7 \uniF4EE \uniF4EF \omega \omegatonos \uni03CF \omega1 \uni03D7 ] <anchor -152 530> @Stacking;
-  markClass [\uni2DE2 \uniF4E2 \iotadieresis ] <anchor -154 530> @Stacking;
-  markClass [\uni2DE3 \uniF4E3 \upsilondieresis ] <anchor -140 486> @Stacking;
-  markClass [\uni2DE4 \uni2DED \uniF4E4 \uniF4ED \omicrontonos \phi1 ] <anchor -140 530> @Stacking;
-  markClass [\uni2DE8 \uniF4E8 \uni03D0 ] <anchor -128 530> @Stacking;
-  markClass [\uni2DE9 \uni2DF1 \uni2DF8 \uniF4E9 \uniF4F1 \uniF4F8 \theta1 \uni03D9 ] <anchor -137 530> @Stacking;
-  markClass [\uni2DEA \uni2DEB \uni2DE5 \uni2DF7 \uniF4E5 \uniF4EA \uniF4EB \uniF4F7 \uniE0BA \upsilontonos \Upsilon1 \uni03D3 ] <anchor -135 530> @Stacking;
-  markClass [\uni2DEC \uniF4EC \uni03D4 ] <anchor -155 450> @Stacking;
-  markClass [\uni2DF0 \uniF4F0 \uni03D8 ] <anchor -135 470> @Stacking;
-  markClass [\uni2DF2 \uniF4F2 \uni03DA ] <anchor -156 530> @Stacking;
-  markClass [\uni2DF3 \uniF4F3 \uni03DB ] <anchor -157 478> @Stacking;
-  markClass [\uni2DF4 \uni2DF6 \uniA678 \uniA679 \uniA67A \uniA69F \uni2DFC \uniF4F4 \uniF4F6 \uniF4FC \uniF678 \uniF679 \uniF67A \uniF69F \uniF6A0 \uni03DC \uni03DE ] <anchor -155 530> @Stacking;
-  markClass [\uni2DF9 \uni2DFE \uniF4F9 \uniF4FE ] <anchor -138 530> @Stacking;
-  markClass [\uni2DFA \uniA676 \uniF4FA \uniF676 ] <anchor -116 530> @Stacking;
-  markClass [\uni2DFD \uniF4FD ] <anchor -121 530> @Stacking;
+  markClass [\uni2DE0 \uni0202 ] <anchor -153 532> @Stacking;
+  markClass [\uni2DE1 \uni2DE6 \uni2DE7 \uni2DEE \uni2DEF \uniF4E0 \uniF4E1 \uniF4E6 \uniF4E7 \uniF4EE \uniF4EF \uni0203 \uni0211 \uni0212 \uni021C \uni0221 ] <anchor -152 530> @Stacking;
+  markClass [\uni2DE2 \uniF4E2 \uni0204 ] <anchor -154 530> @Stacking;
+  markClass [\uni2DE3 \uniF4E3 \uni0205 ] <anchor -140 486> @Stacking;
+  markClass [\uni2DE4 \uni2DED \uniF4E4 \uniF4ED \uni0209 \uni021B ] <anchor -140 530> @Stacking;
+  markClass [\uni2DE8 \uniF4E8 \uni0213 ] <anchor -128 530> @Stacking;
+  markClass [\uni2DE9 \uni2DF1 \uni2DF8 \uniF4E9 \uniF4F1 \uniF4F8 \uni0214 \uni0223 ] <anchor -137 530> @Stacking;
+  markClass [\uni2DEA \uni2DEB \uni2DE5 \uni2DF7 \uniF4E5 \uniF4EA \uniF4EB \uniF4F7 \uniE0BA \uni0206 \uni020B \uni0215 \scommaaccent ] <anchor -135 530> @Stacking;
+  markClass [\uni2DEC \uniF4EC \uni021A ] <anchor -155 450> @Stacking;
+  markClass [\uni2DF0 \uniF4F0 \uni0222 ] <anchor -135 470> @Stacking;
+  markClass [\uni2DF2 \uniF4F2 \uni0224 ] <anchor -156 530> @Stacking;
+  markClass [\uni2DF3 \uniF4F3 \uni0225 ] <anchor -157 478> @Stacking;
+  markClass [\uni2DF4 \uni2DF6 \uniA678 \uniA679 \uniA67A \uniA69F \uni2DFC \uniF4F4 \uniF4F6 \uniF4FC \uniF678 \uniF679 \uniF67A \uniF69F \uniF6A0 \uni0201 \uni0208 \uni0233 \uni01E8 ] <anchor -155 530> @Stacking;
+  markClass [\uni2DF9 \uni2DFE \uniF4F9 \uniF4FE \uni021F ] <anchor -138 530> @Stacking;
+  markClass [\uni2DFA \uniA676 \uniF4FA \uniF676 \uni020F \uni022A ] <anchor -116 530> @Stacking;
+  markClass [\uni2DFD \uniF4FD \uni022D ] <anchor -121 530> @Stacking;
   markClass [\uniA66F ] <anchor -215 537> @Stacking;
   markClass [\uniA677 \uniF677 ] <anchor -155 500> @Stacking;
   markClass [\u1E000 ] <anchor -200 460> @Stacking;
@@ -5082,7 +5082,7 @@ lookup mkmkMarktoMarkPositioning {
   markClass [\u1E028 ] <anchor -333 440> @Stacking;
   markClass [\u1E029 ] <anchor -310 440> @Stacking;
   markClass [\u1E02A ] <anchor -201 440> @Stacking;
-  markClass [\uniA675 \uniF675 ] <anchor -136 530> @Stacking;
+  markClass [\uniA675 \uniF675 \uni020D ] <anchor -136 530> @Stacking;
   markClass [\uni0485 ] <anchor -142 523> @Stacking;
   markClass [\uni0486 ] <anchor -222 520> @Stacking;
   markClass [\uni0483.salt2 \uni0360.salt \uniA66F.salt1 \uni0303.salt6 \uni0360 \uni0361 \uni0303.salt1 \uni0303.salt3 \uni0303.salt2 \uni0483.salt1 \uni0483.salt3 \uni0303.salt4 \uni0303.salt5 \uni0303.salt7 \uni0483.salt5 \uni0483.salt6 \uni0483.salt7 \uni0487.salt2 ] <anchor -1 590> @Stacking;
@@ -5102,7 +5102,7 @@ lookup mkmkMarktoMarkPositioning {
   markClass [\uniA67B \uniE0B3 \uniF67B \uniE098 \uniE055 \uniE056 \uniE057 \uniE0BD \uniE0BC \uniE0B1 \uniE0B4 ] <anchor -145 530> @Stacking;
   markClass [\uniA67C ] <anchor -142 530> @Stacking;
   markClass [\uniA67D ] <anchor -144 529> @Stacking;
-  markClass [\uniA69E \uniF69E ] <anchor -162 475> @Stacking;
+  markClass [\uniA69E \uniF69E \uni0220 ] <anchor -162 475> @Stacking;
   markClass [\uni0358 ] <anchor -1 535> @Stacking;
   markClass [\uni1DC0 ] <anchor -193 537> @Stacking;
   markClass [\uni1DC1 ] <anchor -182 536> @Stacking;
@@ -5112,7 +5112,7 @@ lookup mkmkMarktoMarkPositioning {
   markClass [\uniE003 ] <anchor -155 541> @Stacking;
   markClass [\uniE004 ] <anchor -294 833> @Stacking;
   markClass [\uniE005 ] <anchor -103 531> @Stacking;
-  markClass [\uni2DF5 \uniF4F5 \uF0098 \uni03DD ] <anchor -205 530> @Stacking;
+  markClass [\uni2DF5 \uniF4F5 \uF0098 ] <anchor -205 530> @Stacking;
   markClass [\uni2DFF \uniF4FF ] <anchor -166 530> @Stacking;
   markClass [\uniE0BB ] <anchor -115 530> @Stacking;
   markClass [\uni1DF8 ] <anchor -476 536> @Stacking;
@@ -5123,8 +5123,8 @@ lookup mkmkMarktoMarkPositioning {
   markClass [\uF0023 ] <anchor -140 460> @Stacking;
   markClass [\uniEC9C \uniEC9D \uniEC9E \uniEC9F ] <anchor -204 440> @Stacking;
   markClass [\u1E015.ss03 \u1E015.ss04 ] <anchor 330 389> @Stacking;
-  pos mark [\uni0487 \tau ] <anchor -300 905> mark @Stacking;
-  pos mark [\uni0483 \u1E023 \sigma ] <anchor -223 800> mark @Stacking;
+  pos mark [\uni0487 \gcaron ] <anchor -300 905> mark @Stacking;
+  pos mark [\uni0483 \u1E023 \Gcaron ] <anchor -223 800> mark @Stacking;
   pos mark [\uni0484 ] <anchor -62 902> mark @Stacking;
   pos mark [\gravecomb ] <anchor -108 847> mark @Stacking;
   pos mark [\acutecomb ] <anchor -177 845> mark @Stacking;
@@ -5135,18 +5135,18 @@ lookup mkmkMarktoMarkPositioning {
   pos mark [\uni030F ] <anchor -109 852> mark @Stacking;
   pos mark [\uni0311 ] <anchor -1 765> mark @Stacking;
   pos mark [\uni033E ] <anchor -83 782> mark @Stacking;
-  pos mark [\uni2DE0 \uni2DE1 \uni2DE6 \uni2DE7 \uni2DEE \uni2DEF \uniF4E0 \uniF4E1 \uniF4E6 \uniF4E7 \uniF4EE \uniF4EF \psi \omega \omegatonos \uni03CF \omega1 \uni03D7 ] <anchor -152 800> mark @Stacking;
-  pos mark [\uni2DE2 \uniF4E2 \iotadieresis ] <anchor -154 800> mark @Stacking;
-  pos mark [\uni2DE3 \uni2DE4 \uni2DED \uniF4E3 \uniF4E4 \uniF4ED \uF0023 \upsilondieresis \omicrontonos \phi1 ] <anchor -140 800> mark @Stacking;
-  pos mark [\uni2DE8 \uniF4E8 \uni03D0 ] <anchor -128 800> mark @Stacking;
-  pos mark [\uni2DE9 \uni2DF1 \uni2DF8 \uniF4E9 \uniF4F1 \uniF4F8 \theta1 \uni03D9 ] <anchor -137 800> mark @Stacking;
-  pos mark [\uni2DEA \uni2DEB \uni2DF0 \uni2DE5 \uni2DF7 \uniF4E5 \uniF4EA \uniF4EB \uniF4F0 \uniF4F7 \uniE0BA \upsilontonos \Upsilon1 \uni03D3 \uni03D8 ] <anchor -135 800> mark @Stacking;
-  pos mark [\uni2DEC \uni2DF4 \uni2DF6 \uniA677 \uniA678 \uniA679 \uniA67A \uniA69F \uni2DFC \uniF4EC \uniF4F4 \uniF4F6 \uniF4FC \uniF677 \uniF678 \uniF679 \uniF67A \uniF69F \uniF6A0 \uni03D4 \uni03DC \uni03DE ] <anchor -155 800> mark @Stacking;
-  pos mark [\uni2DF2 \uniF4F2 \uni03DA ] <anchor -156 800> mark @Stacking;
-  pos mark [\uni2DF3 \uniF4F3 \uni03DB ] <anchor -157 800> mark @Stacking;
-  pos mark [\uni2DF9 \uni2DFE \uniF4F9 \uniF4FE ] <anchor -138 800> mark @Stacking;
-  pos mark [\uni2DFA \uniF4FA ] <anchor -116 800> mark @Stacking;
-  pos mark [\uni2DFD \uniF4FD ] <anchor -121 800> mark @Stacking;
+  pos mark [\uni2DE0 \uni2DE1 \uni2DE6 \uni2DE7 \uni2DEE \uni2DEF \uniF4E0 \uniF4E1 \uniF4E6 \uniF4E7 \uniF4EE \uniF4EF \uni0202 \uni0203 \uni0211 \uni0212 \uni021C \uni0221 ] <anchor -152 800> mark @Stacking;
+  pos mark [\uni2DE2 \uniF4E2 \uni0204 ] <anchor -154 800> mark @Stacking;
+  pos mark [\uni2DE3 \uni2DE4 \uni2DED \uniF4E3 \uniF4E4 \uniF4ED \uF0023 \uni0205 \uni0209 \uni021B ] <anchor -140 800> mark @Stacking;
+  pos mark [\uni2DE8 \uniF4E8 \uni0213 ] <anchor -128 800> mark @Stacking;
+  pos mark [\uni2DE9 \uni2DF1 \uni2DF8 \uniF4E9 \uniF4F1 \uniF4F8 \uni0214 \uni0223 ] <anchor -137 800> mark @Stacking;
+  pos mark [\uni2DEA \uni2DEB \uni2DF0 \uni2DE5 \uni2DF7 \uniF4E5 \uniF4EA \uniF4EB \uniF4F0 \uniF4F7 \uniE0BA \uni0206 \uni020B \uni0215 \scommaaccent \uni0222 ] <anchor -135 800> mark @Stacking;
+  pos mark [\uni2DEC \uni2DF4 \uni2DF6 \uniA677 \uniA678 \uniA679 \uniA67A \uniA69F \uni2DFC \uniF4EC \uniF4F4 \uniF4F6 \uniF4FC \uniF677 \uniF678 \uniF679 \uniF67A \uniF69F \uniF6A0 \uni0201 \uni0208 \uni021A \uni0233 \uni01E8 ] <anchor -155 800> mark @Stacking;
+  pos mark [\uni2DF2 \uniF4F2 \uni0224 ] <anchor -156 800> mark @Stacking;
+  pos mark [\uni2DF3 \uniF4F3 \uni0225 ] <anchor -157 800> mark @Stacking;
+  pos mark [\uni2DF9 \uni2DFE \uniF4F9 \uniF4FE \uni021F ] <anchor -138 800> mark @Stacking;
+  pos mark [\uni2DFA \uniF4FA \uni022A ] <anchor -116 800> mark @Stacking;
+  pos mark [\uni2DFD \uniF4FD \uni022D ] <anchor -121 800> mark @Stacking;
   pos mark [\uniA66F ] <anchor -215 747> mark @Stacking;
   pos mark [\u1E000 ] <anchor -200 800> mark @Stacking;
   pos mark [\u1E001 \u1E012 ] <anchor -193 800> mark @Stacking;
@@ -5183,7 +5183,7 @@ lookup mkmkMarktoMarkPositioning {
   pos mark [\u1E028 ] <anchor -333 800> mark @Stacking;
   pos mark [\u1E029 ] <anchor -310 800> mark @Stacking;
   pos mark [\u1E02A ] <anchor -201 800> mark @Stacking;
-  pos mark [\uniA675 \uniF675 ] <anchor -136 800> mark @Stacking;
+  pos mark [\uniA675 \uniF675 \uni020D ] <anchor -136 800> mark @Stacking;
   pos mark [\uni0485 ] <anchor -142 800> mark @Stacking;
   pos mark [\uni0486 ] <anchor -222 799> mark @Stacking;
   pos mark [\uni0483.salt2 \uni0360.salt \uniA66F.salt1 \uni0303.salt6 \uni0361 \uni0303.salt1 \uni0303.salt3 \uni0303.salt2 \uni0483.salt1 \uni0483.salt3 \uni0303.salt4 \uni0303.salt5 \uni0303.salt7 \uni0483.salt5 \uni0483.salt6 \uni0483.salt7 \uni0487.salt2 ] <anchor -1 800> mark @Stacking;
@@ -5201,11 +5201,11 @@ lookup mkmkMarktoMarkPositioning {
   pos mark [\uni0360 \uni0483.salt4 ] <anchor -2 800> mark @Stacking;
   pos mark [\uniE001 ] <anchor -216 806> mark @Stacking;
   pos mark [\uniA674 \uniF674 ] <anchor -126 800> mark @Stacking;
-  pos mark [\uniA676 \uniF676 ] <anchor -116 900> mark @Stacking;
+  pos mark [\uniA676 \uniF676 \uni020F ] <anchor -116 900> mark @Stacking;
   pos mark [\uniA67B \uniE0B3 \uniF67B \uniE098 \uniE055 \uniE056 \uniE057 \uniE0BD \uniE0BC \uniE0B1 \uniE0B4 ] <anchor -145 800> mark @Stacking;
   pos mark [\uniA67C ] <anchor -142 750> mark @Stacking;
   pos mark [\uniA67D ] <anchor -134 759> mark @Stacking;
-  pos mark [\uniA69E \uniF69E ] <anchor -162 860> mark @Stacking;
+  pos mark [\uniA69E \uniF69E \uni0220 ] <anchor -162 860> mark @Stacking;
   pos mark [\uni0358 ] <anchor -1 727> mark @Stacking;
   pos mark [\uni1DC0 ] <anchor -193 807> mark @Stacking;
   pos mark [\uni1DC1 ] <anchor -182 806> mark @Stacking;
@@ -5215,7 +5215,7 @@ lookup mkmkMarktoMarkPositioning {
   pos mark [\uniE003 ] <anchor -155 901> mark @Stacking;
   pos mark [\uniE004 ] <anchor -294 1103> mark @Stacking;
   pos mark [\uniE005 ] <anchor -103 881> mark @Stacking;
-  pos mark [\uni2DF5 \uniF4F5 \uF0097 \uF0098 \uni03DD ] <anchor -205 800> mark @Stacking;
+  pos mark [\uni2DF5 \uniF4F5 \uF0097 \uF0098 ] <anchor -205 800> mark @Stacking;
   pos mark [\uniE0BB ] <anchor -115 800> mark @Stacking;
   pos mark [\uni1DF8 ] <anchor -482 701> mark @Stacking;
   pos mark [\uni1DF6 ] <anchor -2 746> mark @Stacking;
@@ -5420,12 +5420,13 @@ feature mkmk {
 	\uF02EE \uF02F0 \uF02F1 \uF02F3 \uF02F4 \uni2C5F.ss03 \uni2C5F.ss04 \uni2C2F 
 	\uni2C5F \uni2C2F.ss04 \uni261E \uF0134 \uF0135 \uF0136 \uF0137 \uF0138 \uF0139 
 	\uF013A \uF013B \circumflex \ring \tilde \guilsinglleft \guilsinglright 
-	\fraction \uni2074 \minus \uni2215 \alpha \Alpha \Beta \Gamma \uni0394 \Epsilon 
-	\Zeta \Eta \Theta \Iota \Kappa \Lambda \Mu \Nu \Xi \Omicron \Pi \Rho \uni03A2 \Sigma 
-	\Tau \Upsilon \Phi \Chi \Psi \uni03A9 \Iotadieresis \Upsilondieresis \alphatonos 
-	\epsilontonos \etatonos \iotatonos \upsilondieresistonos \beta \gamma \delta 
-	\epsilon \zeta \eta \theta \iota \kappa \lambda \uni03BC \nu \xi \omicron \pi \rho 
-	\sigma1 \upsilon \phi \chi ];
+	\fraction \uni2074 \minus \uni2215 \uni0195 \uni0196 \uni0197 \uni0198 \uni0199 
+	\uni019A \uni019B \uni019C \uni019D \uni019E \uni019F \Ohorn \ohorn \uni01A2 
+	\uni01A3 \uni01A4 \uni01A5 \uni01A6 \uni01A7 \uni01A8 \uni01A9 \uni01AA \uni01AB 
+	\uni01AC \uni01AD \uni01AE \Uhorn \uhorn \uni01B1 \uni01B2 \uni01B3 \uni01B4 
+	\uni01B5 \uni01B6 \uni01B7 \uni01B8 \uni01B9 \uni01BA \uni01BB \uni01BC \uni01BD 
+	\uni01BE \uni01BF \uni01C0 \uni01C1 \uni01C2 \uni01C3 \uni01C4 \uni01C5 \uni01C6 
+	\uni01C7 \uni01C8 \uni01C9 ];
 @GDEF_Ligature = [\afii10056 \afii10104 \uni0478 \uni0479 \afii10027 \afii10075 
 	\uni0476 \uni0477 \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring 
 	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
@@ -5529,10 +5530,11 @@ feature mkmk {
 	\uni0483.salt4 \uni0487.salt1 \uni0483.salt5 \uni0483.salt6 \uni0483.salt7 
 	\uni0487.salt2 \uF0023 \uniED60 \uniED70 \uniED80 \uniED90 \uniEDA0 \uniEDB0 
 	\uniEDC0 \uniEDD0 \uniEDE0 \uniEDF0 \uniF4F5 \uF0097 \uF0098 \uniEC9C \uniEC9D 
-	\uniEC9E \uniEC9F \u1E015.ss03 \u1E015.ss04 \uniF6A0 \sigma \tau \psi \omega 
-	\iotadieresis \upsilondieresis \omicrontonos \upsilontonos \omegatonos 
-	\uni03CF \uni03D0 \theta1 \Upsilon1 \uni03D3 \uni03D4 \phi1 \omega1 \uni03D7 
-	\uni03D8 \uni03D9 \uni03DA \uni03DB \uni03DC \uni03DD \uni03DE ];
+	\uniEC9E \uniEC9F \u1E015.ss03 \u1E015.ss04 \uniF6A0 \Gcaron \gcaron \uni0201 
+	\uni0202 \uni0203 \uni0204 \uni0205 \uni0206 \uni0208 \uni0209 \uni020B \uni0211 
+	\uni0212 \uni0213 \uni0214 \uni0215 \scommaaccent \uni021A \uni021B \uni021C 
+	\uni0221 \uni0222 \uni0223 \uni0224 \uni0225 \uni0233 \uni020D \uni020F \uni021F 
+	\uni0220 \uni022A \uni022D \uni01E8 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;

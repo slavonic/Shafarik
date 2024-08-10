@@ -21,7 +21,7 @@ FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = " Зачѧло Ева︮ꙉ︦л︯иѣ ꙇ͠с х͠ва"
+LINE_ONE = " Ꙁачѧло Ева︮ꙉ︦л︯иѣ ꙇ͠с х͠ва"
 LINE_TWO = " Ⰸⰰⱍⱔⰾⱁ ⰵⰲⰰ︮ⰼⰾ︯ⰻⱑ"
 LINE_THREE = " 󰈸󰈰󰉍󰉔󰈾󰉁 󰈵󰈲󰈰󰈼󰈾󰈻󰉑 "
 LINE_FOUR = " Шафарикъ ⱎⰰⱇⰰⱃⰻⰽⱏ "

@@ -11,10 +11,9 @@ the Cyrillic or Glagolitic alphabets.
 
 ## History
 
-The initial design of this font was based on several freeware fonts
-available on the Internet, but all original designs have
-undergone significant development by Aleksandr Andreev and
-Nikita Simmons as part of the
+The font is based on CyrillicaShafarik by SynthesisSoft, 1994,
+subsequently redesigned by Nikita Simmons and edited by
+Aleksandr Andreev and Nikita Simmons as part of the
 [Slavonic Computing Initiative](https://sci.ponomar.net/fonts.html).
 
 ## License

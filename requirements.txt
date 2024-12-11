@@ -75,7 +75,6 @@ picosvg==0.22.1
 pillow==10.4.0
 pip-api==0.0.34
 pip-tools==7.4.1
-pkg_resources==0.0.0
 pngquant-cli==2.17.0.post5
 protobuf==3.20.3
 pyahocorasick==2.1.0

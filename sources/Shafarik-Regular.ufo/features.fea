@@ -2543,11 +2543,11 @@ lookup markMarkPositioning {
 	<anchor 510 1> mark @Below
 	<anchor 640 768> mark @AboveRight
 	<anchor 380 768> mark @AboveLeft;
-  pos base [\uniA66E ] <anchor 1048 877> mark @Double
-	<anchor 520 878> mark @Above
-	<anchor 520 -159> mark @Below
-	<anchor 650 876> mark @AboveRight
-	<anchor 390 878> mark @AboveLeft;
+  pos base [\uniA66E ] <anchor 1197 877> mark @Double
+	<anchor 669 878> mark @Above
+	<anchor 671 -159> mark @Below
+	<anchor 799 876> mark @AboveRight
+	<anchor 539 878> mark @AboveLeft;
   pos base [\uni1C83 ] <anchor 570 576> mark @Double
 	<anchor 310 578> mark @Above
 	<anchor 310 1> mark @Below

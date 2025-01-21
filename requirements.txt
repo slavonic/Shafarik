@@ -49,7 +49,7 @@ glyphslib==6.7.2
 h11==0.14.0
 idna==3.7
 importlib-resources==6.4.0
-jinja2==3.1.4
+jinja2==3.1.5
 kurbopy==0.11.0
 lxml==5.2.2
 markdown-it-py==3.0.0

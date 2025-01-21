@@ -207,7 +207,7 @@ importlib-resources==6.4.0
     #   gfsubsets
     #   glyphslib
     #   nanoemoji
-jinja2==3.1.4
+jinja2==3.1.5
     # via
     #   diffenator2
     #   fontbakery

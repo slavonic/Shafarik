@@ -13,9 +13,9 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>1</integer>
+    <integer>2</integer>
     <key>copyright</key>
-    <string>Copyright 2024 The Shafarik Project Authors (https://github.com/slavonic/Shafarik.git)</string>
+    <string>Copyright 2025 The Shafarik Project Authors (https://github.com/slavonic/Shafarik.git)</string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>ascender</key>
@@ -39,7 +39,7 @@
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.001</string>
+    <string>Version 1.002</string>
     <key>openTypeNameSampleText</key>
     <string>ѣкоже естъ псано въ пророцѣхъ ⱑⰽⱁⰶⰵ ⰵⱄⱅⱏ ⱂⱄⰰⱀⱁ ⰲⱏ ⱂⱃⱁⱃⱁⱌⱑⱈⱏ</string>
     <key>openTypeOS2WidthClass</key>
@@ -52,10 +52,6 @@
     <array>
       <integer>0</integer>
       <integer>0</integer>
-    </array>
-    <key>openTypeOS2Selection</key>
-    <array>
-      <integer>7</integer>
     </array>
     <key>openTypeOS2Type</key>
     <array/>

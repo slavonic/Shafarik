@@ -1,6 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.12.9
+fontbakery version: 0.13.1
+
+
 
 
 
@@ -12,7 +14,7 @@ These won't break the CI job for now, but will become effective after some time 
 <details><summary>[1] Shafarik-Regular.ttf</summary>
 <div>
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>💥 <b>ERROR</b> Check base characters have non-zero advance width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#base-has-width">base_has_width</a></summary>
     <div>
 
 
@@ -21,8 +23,18 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
- [code: lacks-article]
+* 💥 **ERROR** <p>Failed with AttributeError: 'CheckRunContext' object has no attribute 'get'</p>
+<pre><code>  File &quot;/home/runner/work/Shafarik/Shafarik/venv-test/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 222, in _run_check
+    subresults = list(subresults)
+  File &quot;/home/runner/work/Shafarik/Shafarik/venv-test/lib/python3.10/site-packages/fontbakery/checks/base_has_width.py&quot;, line 46, in check_base_has_width
+    problems = bullet_list(context, problems)
+  File &quot;/home/runner/work/Shafarik/Shafarik/venv-test/lib/python3.10/site-packages/fontbakery/utils.py&quot;, line 155, in bullet_list
+    return f&quot;{indentation}{bullet} &quot; + pretty_print_list(
+  File &quot;/home/runner/work/Shafarik/Shafarik/venv-test/lib/python3.10/site-packages/fontbakery/utils.py&quot;, line 140, in pretty_print_list
+    if config.get(&quot;full_lists&quot;):
+
+</code></pre>
+ [code: failed-check]
 
 
 
@@ -38,10 +50,10 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[20] Shafarik-Regular.ttf</summary>
+<details><summary>[21] Shafarik-Regular.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
     <div>
 
 
@@ -85,7 +97,7 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.fontbakery.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#fontbakery-version">fontbakery_version</a></summary>
     <div>
 
 
@@ -94,7 +106,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.9, while a newer 0.12.10 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.13.1, while a newer 0.13.2 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -103,7 +115,7 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
     <div>
 
 
@@ -112,142 +124,97 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
+* 🔥 **FAIL** <p>GF_Phonetics_SinoExt glyphset:</p>
 <table>
 <thead>
 <tr>
-<th align="left">Language</th>
 <th align="left">FAIL messages</th>
+<th align="left">Languages</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">cy_Latn (Welsh)</td>
-<td align="left">Shaper didn't attach gravecomb to w</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0308 to w</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to W</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0308 to W</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to Y</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach gravecomb to W</td>
-</tr>
-<tr>
-<td align="left">^</td>
 <td align="left">Shaper didn't attach acutecomb to w</td>
+<td align="left">cy_Latn (Welsh)</td>
 </tr>
 <tr>
-<td align="left">^</td>
+<td align="left">Shaper didn't attach uni0308 to W</td>
+<td align="left">cy_Latn (Welsh)</td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to W</td>
+<td align="left">cy_Latn (Welsh)</td>
+</tr>
+<tr>
 <td align="left">Shaper didn't attach gravecomb to y</td>
+<td align="left">cy_Latn (Welsh)</td>
 </tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
 <tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
+<td align="left">Shaper didn't attach uni0308 to w</td>
+<td align="left">cy_Latn (Welsh)</td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td align="left">de_Latn (German)</td>
+<td align="left">Shaper didn't attach gravecomb to W</td>
+<td align="left">cy_Latn (Welsh)</td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to w</td>
+<td align="left">cy_Latn (Welsh)</td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to Y</td>
+<td align="left">cy_Latn (Welsh)</td>
+</tr>
+<tr>
 <td align="left">Some base glyphs were missing: ẞ</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper produced a .notdef</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach acutecomb to J</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to j</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* 🔥 **FAIL** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">FAIL messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ro_Latn (Romanian)</td>
-<td align="left">Shaper didn't attach uni0326 to T</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0326 to S</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0326 to s</td>
-</tr>
-<tr>
-<td align="left">^</td>
-<td align="left">Shaper didn't attach uni0326 to t</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Latin_Core glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Language</th>
-<th align="left">WARN messages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
 <td align="left">de_Latn (German)</td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to j</td>
+<td align="left">nl_Latn (Dutch)</td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to J</td>
+<td align="left">nl_Latn (Dutch)</td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0326 to S</td>
+<td align="left">ro_Latn (Romanian)</td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0326 to s</td>
+<td align="left">ro_Latn (Romanian)</td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0326 to T</td>
+<td align="left">ro_Latn (Romanian)</td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach uni0326 to t</td>
+<td align="left">ro_Latn (Romanian)</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Some auxiliary glyphs were missing: Ʒ, Ǥ, ǥ, Ǯ, ǯ, ʒ, ẞ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
 <td align="left">Some auxiliary glyphs were missing: ẞ</td>
+<td align="left">fr_Latn (French), it_Latn (Italian), pl_Latn (Polish) and tr_Latn (Turkish)</td>
 </tr>
 </tbody>
 </table>
@@ -259,7 +226,7 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
     <div>
 
 
@@ -336,26 +303,7 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-acutecomb (U+0301), dotbelowcomb (U+0323), gravecomb (U+0300), u1E000 (U+1E000), u1E001 (U+1E001), u1E002 (U+1E002), u1E003 (U+1E003), u1E004 (U+1E004), u1E005 (U+1E005), u1E006 (U+1E006), u1E007 (U+1E007), u1E008 (U+1E008), u1E009 (U+1E009), u1E00A (U+1E00A), u1E00B (U+1E00B), u1E00C (U+1E00C), u1E00D (U+1E00D), u1E00E (U+1E00E), u1E00F (U+1E00F), u1E010 (U+1E010), u1E011 (U+1E011), u1E012 (U+1E012), u1E013 (U+1E013), u1E014 (U+1E014), u1E015 (U+1E015), u1E015.ss03 (U+F0260), u1E015.ss04 (U+F02D0), u1E016 (U+1E016), u1E017 (U+1E017), u1E018 (U+1E018), u1E019 (U+1E019), u1E01A (U+1E01A), u1E01B (U+1E01B), u1E01C (U+1E01C), u1E01D (U+1E01D), u1E01E (U+1E01E), u1E01F (U+1E01F), u1E020 (U+1E020), u1E021 (U+1E021), u1E022 (U+1E022), u1E023 (U+1E023), u1E024 (U+1E024), u1E025 (U+1E025), u1E026 (U+1E026), u1E027 (U+1E027), u1E028 (U+1E028), u1E029 (U+1E029), u1E02A (U+1E02A), uF0023 (U+F0023), uF0097 (U+F0097), uF0098 (U+F0098), uni0302 (U+0302), uni0303 (U+0303), uni0303.salt5 (U+E011), uni0303.salt6 (U+E012), uni0303.salt7 (U+E013), uni0303.salt8 (U+E014), uni0304 (U+0304), uni0305 (U+0305), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C), uni030F (U+030F), uni0311 (U+0311), uni0312 (U+0312), uni0313 (U+0313), uni0314 (U+0314), uni0326 (U+0326), uni0327 (U+0327), uni0328 (U+0328), uni032E (U+032E), uni032F (U+032F), uni0332 (U+0332), uni033E (U+033E), uni033F (U+033F), uni0350 (U+0350), uni0358 (U+0358), uni035B (U+035B), uni0360 (U+0360), uni0360.salt (U+E015), uni0361 (U+0361), uni0483.salt1 (U+E016), uni0483.salt2 (U+E017), uni0483.salt3 (U+E018), uni0483.salt4 (U+E019), uni0483.salt5 (U+E01A), uni0483.salt6 (U+E01B), uni0483.salt7 (U+E01C), uni0484 (U+0484), uni0485 (U+0485), uni0486 (U+0486), uni0487.salt1 (U+E01D), uni0487.salt2 (U+E01E), uni0488 (U+0488), uni0489 (U+0489), uni1DC0 (U+1DC0), uni1DC1 (U+1DC1), uni1DF8 (U+1DF8), uni1DF9 (U+1DF9), uni20DD (U+20DD), uni2DE0 (U+2DE0), uni2DE1 (U+2DE1), uni2DE2 (U+2DE2), uni2DE3 (U+2DE3), uni2DE4 (U+2DE4), uni2DE5 (U+2DE5), uni2DE6 (U+2DE6), uni2DE7 (U+2DE7), uni2DE8 (U+2DE8), uni2DE9 (U+2DE9), uni2DEA (U+2DEA), uni2DEB (U+2DEB), uni2DEC (U+2DEC), uni2DED (U+2DED), uni2DEE (U+2DEE), uni2DEF (U+2DEF), uni2DF0 (U+2DF0), uni2DF1 (U+2DF1), uni2DF2 (U+2DF2), uni2DF3 (U+2DF3), uni2DF4 (U+2DF4), uni2DF5 (U+2DF5), uni2DF6 (U+2DF6), uni2DF7 (U+2DF7), uni2DF8 (U+2DF8), uni2DF9 (U+2DF9), uni2DFA (U+2DFA), uni2DFB (U+2DFB), uni2DFC (U+2DFC), uni2DFD (U+2DFD), uni2DFE (U+2DFE), uni2DFF (U+2DFF), uniA66F.salt1 (U+E01F), uniA670 (U+A670), uniA671 (U+A671), uniA672 (U+A672), uniA674 (U+A674), uniA675 (U+A675), uniA676 (U+A676), uniA677 (U+A677), uniA678 (U+A678), uniA679 (U+A679), uniA67A (U+A67A), uniA67B (U+A67B), uniA69E (U+A69E), uniA69F (U+A69F), uniE000 (U+E000), uniE001 (U+E001), uniE002 (U+E002), uniE003 (U+E003), uniE004 (U+E004), uniE005 (U+E005), uniE055 (U+E055), uniE056 (U+E056), uniE057 (U+E057), uniE07E (U+E07E), uniE094 (U+E094), uniE098 (U+E098), uniE0B1 (U+E0B1), uniE0B3 (U+E0B3), uniE0B4 (U+E0B4), uniE0BA (U+E0BA), uniE0BB (U+E0BB), uniE0BC (U+E0BC), uniE0BD (U+E0BD), uniEC9C (U+EC9C), uniEC9D (U+EC9D), uniEC9E (U+EC9E), uniEC9F (U+EC9F), uniED60 (U+ED60), uniED70 (U+ED70), uniED80 (U+ED80), uniED90 (U+ED90), uniEDA0 (U+EDA0), uniEDB0 (U+EDB0), uniEDC0 (U+EDC0), uniEDD0 (U+EDD0), uniEDE0 (U+EDE0), uniEDF0 (U+EDF0), uniF4E0 (U+F4E0), uniF4E1 (U+F4E1), uniF4E2 (U+F4E2), uniF4E3 (U+F4E3), uniF4E4 (U+F4E4), uniF4E5 (U+F4E5), uniF4E6 (U+F4E6), uniF4E7 (U+F4E7), uniF4E8 (U+F4E8), uniF4E9 (U+F4E9), uniF4EA (U+F4EA), uniF4EB (U+F4EB), uniF4EC (U+F4EC), uniF4ED (U+F4ED), uniF4EE (U+F4EE), uniF4EF (U+F4EF), uniF4F0 (U+F4F0), uniF4F1 (U+F4F1), uniF4F2 (U+F4F2), uniF4F3 (U+F4F3), uniF4F4 (U+F4F4), uniF4F5 (U+F4F5), uniF4F6 (U+F4F6), uniF4F7 (U+F4F7), uniF4F8 (U+F4F8), uniF4F9 (U+F4F9), uniF4FA (U+F4FA), uniF4FB (U+F4FB), uniF4FC (U+F4FC), uniF4FD (U+F4FD), uniF4FE (U+F4FE), uniF4FF (U+F4FF), uniF674 (U+F674), uniF675 (U+F675), uniF676 (U+F676), uniF677 (U+F677), uniF678 (U+F678), uniF679 (U+F679), uniF67A (U+F67A), uniF67B (U+F67B), uniF69E (U+F69E), uniF69F (U+F69F), uniFE26 (U+FE26), uniFE2E (U+FE2E) and uniFE2F (U+FE2F)</p>
- [code: spacing-mark-glyphs]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gdef.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-mark-chars">opentype/gdef_mark_chars</a></summary>
     <div>
 
 
@@ -374,7 +322,7 @@ uni034F (U+034F)</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-spacing-marks">opentype/gdef_spacing_marks</a></summary>
     <div>
 
 
@@ -383,8 +331,9 @@ uni034F (U+034F)</p>
 
 
 
-* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
- [code: lacks-kern-info]
+* ⚠️ **WARN** <p>The following glyphs seem to be spacing (because they have width &gt; 0 on the hmtx table) so they may be in the GDEF mark glyph class by mistake, or they should have zero width instead:
+acutecomb (U+0301), dotbelowcomb (U+0323), gravecomb (U+0300), u1E000 (U+1E000), u1E001 (U+1E001), u1E002 (U+1E002), u1E003 (U+1E003), u1E004 (U+1E004), u1E005 (U+1E005), u1E006 (U+1E006), u1E007 (U+1E007), u1E008 (U+1E008), u1E009 (U+1E009), u1E00A (U+1E00A), u1E00B (U+1E00B), u1E00C (U+1E00C), u1E00D (U+1E00D), u1E00E (U+1E00E), u1E00F (U+1E00F), u1E010 (U+1E010), u1E011 (U+1E011), u1E012 (U+1E012), u1E013 (U+1E013), u1E014 (U+1E014), u1E015 (U+1E015), u1E015.ss03 (U+F0260), u1E015.ss04 (U+F02D0), u1E016 (U+1E016), u1E017 (U+1E017), u1E018 (U+1E018), u1E019 (U+1E019), u1E01A (U+1E01A), u1E01B (U+1E01B), u1E01C (U+1E01C), u1E01D (U+1E01D), u1E01E (U+1E01E), u1E01F (U+1E01F), u1E020 (U+1E020), u1E021 (U+1E021), u1E022 (U+1E022), u1E023 (U+1E023), u1E024 (U+1E024), u1E025 (U+1E025), u1E026 (U+1E026), u1E027 (U+1E027), u1E028 (U+1E028), u1E029 (U+1E029), u1E02A (U+1E02A), uF0023 (U+F0023), uF0097 (U+F0097), uF0098 (U+F0098), uni0302 (U+0302), uni0303 (U+0303), uni0303.salt5 (U+E011), uni0303.salt6 (U+E012), uni0303.salt7 (U+E013), uni0303.salt8 (U+E014), uni0304 (U+0304), uni0305 (U+0305), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C), uni030F (U+030F), uni0311 (U+0311), uni0312 (U+0312), uni0313 (U+0313), uni0314 (U+0314), uni0326 (U+0326), uni0327 (U+0327), uni0328 (U+0328), uni032E (U+032E), uni032F (U+032F), uni0332 (U+0332), uni033E (U+033E), uni033F (U+033F), uni0350 (U+0350), uni0358 (U+0358), uni035B (U+035B), uni0360 (U+0360), uni0360.salt (U+E015), uni0361 (U+0361), uni0483.salt1 (U+E016), uni0483.salt2 (U+E017), uni0483.salt3 (U+E018), uni0483.salt4 (U+E019), uni0483.salt5 (U+E01A), uni0483.salt6 (U+E01B), uni0483.salt7 (U+E01C), uni0484 (U+0484), uni0485 (U+0485), uni0486 (U+0486), uni0487.salt1 (U+E01D), uni0487.salt2 (U+E01E), uni0488 (U+0488), uni0489 (U+0489), uni1DC0 (U+1DC0), uni1DC1 (U+1DC1), uni1DF8 (U+1DF8), uni1DF9 (U+1DF9), uni20DD (U+20DD), uni2DE0 (U+2DE0), uni2DE1 (U+2DE1), uni2DE2 (U+2DE2), uni2DE3 (U+2DE3), uni2DE4 (U+2DE4), uni2DE5 (U+2DE5), uni2DE6 (U+2DE6), uni2DE7 (U+2DE7), uni2DE8 (U+2DE8), uni2DE9 (U+2DE9), uni2DEA (U+2DEA), uni2DEB (U+2DEB), uni2DEC (U+2DEC), uni2DED (U+2DED), uni2DEE (U+2DEE), uni2DEF (U+2DEF), uni2DF0 (U+2DF0), uni2DF1 (U+2DF1), uni2DF2 (U+2DF2), uni2DF3 (U+2DF3), uni2DF4 (U+2DF4), uni2DF5 (U+2DF5), uni2DF6 (U+2DF6), uni2DF7 (U+2DF7), uni2DF8 (U+2DF8), uni2DF9 (U+2DF9), uni2DFA (U+2DFA), uni2DFB (U+2DFB), uni2DFC (U+2DFC), uni2DFD (U+2DFD), uni2DFE (U+2DFE), uni2DFF (U+2DFF), uniA66F.salt1 (U+E01F), uniA670 (U+A670), uniA671 (U+A671), uniA672 (U+A672), uniA674 (U+A674), uniA675 (U+A675), uniA676 (U+A676), uniA677 (U+A677), uniA678 (U+A678), uniA679 (U+A679), uniA67A (U+A67A), uniA67B (U+A67B), uniA69E (U+A69E), uniA69F (U+A69F), uniE000 (U+E000), uniE001 (U+E001), uniE002 (U+E002), uniE003 (U+E003), uniE004 (U+E004), uniE005 (U+E005), uniE055 (U+E055), uniE056 (U+E056), uniE057 (U+E057), uniE07E (U+E07E), uniE094 (U+E094), uniE098 (U+E098), uniE0B1 (U+E0B1), uniE0B3 (U+E0B3), uniE0B4 (U+E0B4), uniE0BA (U+E0BA), uniE0BB (U+E0BB), uniE0BC (U+E0BC), uniE0BD (U+E0BD), uniEC9C (U+EC9C), uniEC9D (U+EC9D), uniEC9E (U+EC9E), uniEC9F (U+EC9F), uniED60 (U+ED60), uniED70 (U+ED70), uniED80 (U+ED80), uniED90 (U+ED90), uniEDA0 (U+EDA0), uniEDB0 (U+EDB0), uniEDC0 (U+EDC0), uniEDD0 (U+EDD0), uniEDE0 (U+EDE0), uniEDF0 (U+EDF0), uniF4E0 (U+F4E0), uniF4E1 (U+F4E1), uniF4E2 (U+F4E2), uniF4E3 (U+F4E3), uniF4E4 (U+F4E4), uniF4E5 (U+F4E5), uniF4E6 (U+F4E6), uniF4E7 (U+F4E7), uniF4E8 (U+F4E8), uniF4E9 (U+F4E9), uniF4EA (U+F4EA), uniF4EB (U+F4EB), uniF4EC (U+F4EC), uniF4ED (U+F4ED), uniF4EE (U+F4EE), uniF4EF (U+F4EF), uniF4F0 (U+F4F0), uniF4F1 (U+F4F1), uniF4F2 (U+F4F2), uniF4F3 (U+F4F3), uniF4F4 (U+F4F4), uniF4F5 (U+F4F5), uniF4F6 (U+F4F6), uniF4F7 (U+F4F7), uniF4F8 (U+F4F8), uniF4F9 (U+F4F9), uniF4FA (U+F4FA), uniF4FB (U+F4FB), uniF4FC (U+F4FC), uniF4FD (U+F4FD), uniF4FE (U+F4FE), uniF4FF (U+F4FF), uniF674 (U+F674), uniF675 (U+F675), uniF676 (U+F676), uniF677 (U+F677), uniF678 (U+F678), uniF679 (U+F679), uniF67A (U+F67A), uniF67B (U+F67B), uniF69E (U+F69E), uniF69F (U+F69F), uniFE26 (U+FE26), uniFE2E (U+FE2E) and uniFE2F (U+FE2F)</p>
+ [code: spacing-mark-glyphs]
 
 
 
@@ -392,7 +341,7 @@ uni034F (U+034F)</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#alt-caron">alt_caron</a></summary>
     <div>
 
 
@@ -427,7 +376,7 @@ uni034F (U+034F)</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
 
@@ -476,7 +425,43 @@ uni034F (U+034F)</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure files are not too large. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#file-size">file_size</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Font file is 1.0Mb; ideally it should be less than 1.0Mb</p>
+ [code: large-font]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#gpos-kerning-info">gpos_kerning_info</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning information.</p>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
     <div>
 
 
@@ -496,7 +481,7 @@ equal</p>
 <p>Width = 457:
 minus</p>
 <p>Width = 887:
-uni223D, similar, uni2241, uni223B</p>
+similar, uni2241, uni223B, uni223D</p>
  [code: width-outliers]
 
 
@@ -505,7 +490,29 @@ uni223D, similar, uni2241, uni223B</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* uni2C22.ss03.salt (U+EC89): B&lt;&lt;668.0,63.0&gt;-&lt;668.0,63.0&gt;-&lt;668.0,63.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2C2F.ss04 (U+F029F): B&lt;&lt;340.0,47.0&gt;-&lt;340.0,47.0&gt;-&lt;340.0,47.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
     <div>
 
 
@@ -523,7 +530,7 @@ uni223D, similar, uni2241, uni223B</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#stylisticset-description">stylisticset_description</a></summary>
     <div>
 
 
@@ -532,46 +539,38 @@ uni223D, similar, uni2241, uni223B</p>
 
 
 
-* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* afii10030 (U+041C): B&lt;&lt;241.0,280.5&gt;-&lt;233.0,320.0&gt;-&lt;225.0,361.0&gt;&gt;/L&lt;&lt;225.0,361.0&gt;--&lt;225.0,22.0&gt;&gt; = 11.04094018032372
+* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
 
-* afii10030 (U+041C): L&lt;&lt;540.0,22.0&gt;--&lt;540.0,361.0&gt;&gt;/B&lt;&lt;540.0,361.0&gt;-&lt;530.0,308.0&gt;-&lt;521.0,265.0&gt;&gt; = 10.684912400002695
 
-* u1E00C (U+1E00C): B&lt;&lt;-264.5,668.5&gt;-&lt;-238.0,614.0&gt;-&lt;-228.0,557.0&gt;&gt;/B&lt;&lt;-228.0,557.0&gt;-&lt;-228.0,565.0&gt;-&lt;-218.5,576.5&gt;&gt; = 9.950626687951587
 
-* u1F312 (U+1F312): B&lt;&lt;468.0,49.0&gt;-&lt;442.0,33.0&gt;-&lt;425.0,33.0&gt;&gt;/B&lt;&lt;425.0,33.0&gt;-&lt;432.0,32.0&gt;-&lt;435.0,32.0&gt;&gt; = 8.13010235415596
+* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
 
-* u1F318 (U+1F318): B&lt;&lt;376.5,763.0&gt;-&lt;384.0,766.0&gt;-&lt;393.0,768.0&gt;&gt;/L&lt;&lt;393.0,768.0&gt;--&lt;379.0,768.0&gt;&gt; = 12.528807709151492
 
-* u1F377 (U+1F377): B&lt;&lt;466.5,415.5&gt;-&lt;489.0,424.0&gt;-&lt;507.0,431.0&gt;&gt;/B&lt;&lt;507.0,431.0&gt;-&lt;499.0,430.0&gt;-&lt;487.5,430.0&gt;&gt; = 14.12548915823142
 
-* u1F41F (U+1F41F): B&lt;&lt;516.0,308.0&gt;-&lt;543.0,314.0&gt;-&lt;730.0,332.0&gt;&gt;/B&lt;&lt;730.0,332.0&gt;-&lt;702.0,336.0&gt;-&lt;675.5,337.5&gt;&gt; = 13.62826507913694
+* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
 
-* u1F41F (U+1F41F): L&lt;&lt;833.0,445.0&gt;--&lt;914.0,405.0&gt;&gt;/B&lt;&lt;914.0,405.0&gt;-&lt;900.0,416.0&gt;-&lt;900.0,434.0&gt;&gt; = 11.875815566048908
 
-* uni046E (U+046E): B&lt;&lt;304.0,457.0&gt;-&lt;262.0,424.0&gt;-&lt;260.0,424.0&gt;&gt;/B&lt;&lt;260.0,424.0&gt;-&lt;294.0,421.0&gt;-&lt;311.0,414.0&gt;&gt; = 5.042451069170885
 
-* uni046F (U+046F): B&lt;&lt;210.0,319.0&gt;-&lt;182.0,297.0&gt;-&lt;179.0,297.0&gt;&gt;/B&lt;&lt;179.0,297.0&gt;-&lt;215.0,292.0&gt;-&lt;239.0,278.5&gt;&gt; = 7.907162702958418
+* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
 
-* uni263D (U+263D): B&lt;&lt;117.0,764.0&gt;-&lt;107.0,766.0&gt;-&lt;96.0,767.0&gt;&gt;/B&lt;&lt;96.0,767.0&gt;-&lt;110.0,763.0&gt;-&lt;128.5,749.0&gt;&gt; = 10.750966993188039
 
-* uni263D (U+263D): B&lt;&lt;124.5,28.5&gt;-&lt;113.0,20.0&gt;-&lt;106.0,20.0&gt;&gt;/B&lt;&lt;106.0,20.0&gt;-&lt;113.0,19.0&gt;-&lt;116.0,18.5&gt;&gt; = 8.13010235415596
 
-* uni263E (U+263E): B&lt;&lt;359.5,749.0&gt;-&lt;378.0,763.0&gt;-&lt;392.0,767.0&gt;&gt;/B&lt;&lt;392.0,767.0&gt;-&lt;382.0,766.0&gt;-&lt;372.0,764.0&gt;&gt; = 10.234802763423207
+* ⚠️ **WARN** <p>The stylistic set ss03 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
 
-* uni263E (U+263E): B&lt;&lt;372.0,18.5&gt;-&lt;375.0,19.0&gt;-&lt;382.0,20.0&gt;&gt;/B&lt;&lt;382.0,20.0&gt;-&lt;376.0,20.0&gt;-&lt;364.0,28.5&gt;&gt; = 8.13010235415596
 
-* uni2C17.salt (U+EC66): B&lt;&lt;52.0,455.0&gt;-&lt;94.0,507.0&gt;-&lt;199.0,507.0&gt;&gt;/L&lt;&lt;199.0,507.0&gt;--&lt;172.0,513.0&gt;&gt; = 12.528807709151522
 
-* uniA666 (U+A666): B&lt;&lt;241.0,280.5&gt;-&lt;233.0,320.0&gt;-&lt;225.0,361.0&gt;&gt;/L&lt;&lt;225.0,361.0&gt;--&lt;225.0,22.0&gt;&gt; = 11.04094018032372
+* ⚠️ **WARN** <p>The stylistic set ss04 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
 
-* uniA666 (U+A666): L&lt;&lt;540.0,22.0&gt;--&lt;540.0,361.0&gt;&gt;/B&lt;&lt;540.0,361.0&gt;-&lt;530.0,308.0&gt;-&lt;521.0,265.0&gt;&gt; = 10.684912400002695
 
-* uniE0BB (U+E0BB): B&lt;&lt;-85.0,695.0&gt;-&lt;-99.0,684.0&gt;-&lt;-100.0,684.0&gt;&gt;/B&lt;&lt;-100.0,684.0&gt;-&lt;-90.0,682.0&gt;-&lt;-82.0,680.0&gt;&gt; = 11.309932474020195
 
-* uniED13 (U+ED13): B&lt;&lt;210.0,319.0&gt;-&lt;182.0,297.0&gt;-&lt;179.0,297.0&gt;&gt;/B&lt;&lt;179.0,297.0&gt;-&lt;215.0,292.0&gt;-&lt;239.0,278.5&gt;&gt; = 7.907162702958418
-</code></pre>
- [code: found-jaggy-segments]
+* ⚠️ **WARN** <p>The stylistic set ss05 lacks a description string on the 'name' table.</p>
+ [code: missing-description]
 
 
 
@@ -579,7 +578,7 @@ uni223D, similar, uni2241, uni223B</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -588,202 +587,8 @@ uni223D, similar, uni2241, uni223B</p>
 
 
 
-* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* Ebreve (U+0114): L&lt;&lt;127.0,126.0&gt;--&lt;126.0,521.0&gt;&gt;
-
-* Edotaccent (U+0116): L&lt;&lt;126.0,126.0&gt;--&lt;127.0,521.0&gt;&gt;
-
-* M (U+004D): L&lt;&lt;675.0,147.0&gt;--&lt;672.0,550.0&gt;&gt;
-
-* afii10021 (U+0414): L&lt;&lt;168.0,649.0&gt;--&lt;484.0,650.0&gt;&gt;
-
-* afii10024 (U+0416): L&lt;&lt;62.0,448.0&gt;--&lt;61.0,628.0&gt;&gt;
-
-* afii10024 (U+0416): L&lt;&lt;781.0,628.0&gt;--&lt;780.0,448.0&gt;&gt;
-
-* ij (U+0133): L&lt;&lt;449.0,451.0&gt;--&lt;450.0,115.0&gt;&gt;
-
-* k (U+006B): L&lt;&lt;517.0,0.0&gt;--&lt;373.0,-1.0&gt;&gt;
-
-* kcommaaccent (U+0137): L&lt;&lt;517.0,0.0&gt;--&lt;373.0,-1.0&gt;&gt;
-
-* onequarter (U+00BC): L&lt;&lt;216.0,635.0&gt;--&lt;215.0,361.0&gt;&gt;
-
-* u1E000 (U+1E000): L&lt;&lt;-170.0,602.0&gt;--&lt;-171.0,478.0&gt;&gt;
-
-* u1E000 (U+1E000): L&lt;&lt;-231.0,478.0&gt;--&lt;-232.0,598.0&gt;&gt;
-
-* u1E021 (U+1E021): L&lt;&lt;-65.0,458.0&gt;--&lt;-354.0,459.0&gt;&gt;
-
-* u1E023 (U+1E023): L&lt;&lt;-284.0,740.0&gt;--&lt;-285.0,615.0&gt;&gt;
-
-* uF0139 (U+F0139): L&lt;&lt;536.0,245.0&gt;--&lt;535.0,385.0&gt;&gt;
-
-* uF02EA (U+F02EA): L&lt;&lt;296.0,1.0&gt;--&lt;174.0,0.0&gt;&gt;
-
-* uF02EB (U+F02EB): L&lt;&lt;345.0,1.0&gt;--&lt;223.0,0.0&gt;&gt;
-
-* uF02F3 (U+F02F3): L&lt;&lt;174.0,1.0&gt;--&lt;53.0,0.0&gt;&gt;
-
-* uF02F4 (U+F02F4): L&lt;&lt;326.0,1.0&gt;--&lt;204.0,0.0&gt;&gt;
-
-* uF030B (U+F030B): L&lt;&lt;796.0,1.0&gt;--&lt;674.0,0.0&gt;&gt;
-
-* uF031A (U+F031A): L&lt;&lt;1455.0,1.0&gt;--&lt;1334.0,0.0&gt;&gt;
-
-* uF0329 (U+F0329): L&lt;&lt;1438.0,1.0&gt;--&lt;1316.0,0.0&gt;&gt;
-
-* uF032D (U+F032D): L&lt;&lt;1430.0,-3.0&gt;--&lt;1309.0,-4.0&gt;&gt;
-
-* uF032E (U+F032E): L&lt;&lt;1430.0,-3.0&gt;--&lt;1309.0,-4.0&gt;&gt;
-
-* uF032F (U+F032F): L&lt;&lt;1430.0,-3.0&gt;--&lt;1309.0,-4.0&gt;&gt;
-
-* uF032F (U+F032F): L&lt;&lt;1832.0,278.0&gt;--&lt;1954.0,279.0&gt;&gt;
-
-* uF0337 (U+F0337): L&lt;&lt;1641.0,1.0&gt;--&lt;1520.0,0.0&gt;&gt;
-
-* uF0352 (U+F0352): L&lt;&lt;1484.0,-2.0&gt;--&lt;1362.0,-3.0&gt;&gt;
-
-* uF0361 (U+F0361): L&lt;&lt;601.0,1.0&gt;--&lt;480.0,0.0&gt;&gt;
-
-* uF0379 (U+F0379): L&lt;&lt;1018.0,1.0&gt;--&lt;896.0,0.0&gt;&gt;
-
-* uF037A (U+F037A): L&lt;&lt;1018.0,1.0&gt;--&lt;896.0,0.0&gt;&gt;
-
-* uF0392 (U+F0392): L&lt;&lt;1006.0,1.0&gt;--&lt;885.0,0.0&gt;&gt;
-
-* uF0394 (U+F0394): L&lt;&lt;1006.0,1.0&gt;--&lt;885.0,0.0&gt;&gt;
-
-* uF039D (U+F039D): L&lt;&lt;585.0,1.0&gt;--&lt;464.0,0.0&gt;&gt;
-
-* uF039F (U+F039F): L&lt;&lt;585.0,1.0&gt;--&lt;464.0,0.0&gt;&gt;
-
-* uF03A0 (U+F03A0): L&lt;&lt;585.0,1.0&gt;--&lt;464.0,0.0&gt;&gt;
-
-* uF03D4 (U+F03D4): L&lt;&lt;1220.0,1.0&gt;--&lt;1099.0,0.0&gt;&gt;
-
-* uF03D5 (U+F03D5): L&lt;&lt;1233.0,1.0&gt;--&lt;1111.0,0.0&gt;&gt;
-
-* uF03D6 (U+F03D6): L&lt;&lt;1233.0,1.0&gt;--&lt;1111.0,0.0&gt;&gt;
-
-* uF03DF (U+F03DF): L&lt;&lt;1357.0,1.0&gt;--&lt;1235.0,0.0&gt;&gt;
-
-* uF03F4 (U+F03F4): L&lt;&lt;620.0,1.0&gt;--&lt;498.0,0.0&gt;&gt;
-
-* uF03F5 (U+F03F5): L&lt;&lt;620.0,1.0&gt;--&lt;498.0,0.0&gt;&gt;
-
-* uF0400 (U+F0400): L&lt;&lt;620.0,1.0&gt;--&lt;498.0,0.0&gt;&gt;
-
-* uF040D (U+F040D): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uF040F (U+F040F): L&lt;&lt;1227.0,1.0&gt;--&lt;1106.0,0.0&gt;&gt;
-
-* uF0410 (U+F0410): L&lt;&lt;1227.0,1.0&gt;--&lt;1106.0,0.0&gt;&gt;
-
-* uF0417 (U+F0417): L&lt;&lt;1225.0,1.0&gt;--&lt;1104.0,0.0&gt;&gt;
-
-* uF0418 (U+F0418): L&lt;&lt;1249.0,1.0&gt;--&lt;1127.0,0.0&gt;&gt;
-
-* uF041B (U+F041B): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uF041C (U+F041C): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uF041E (U+F041E): L&lt;&lt;812.0,1.0&gt;--&lt;691.0,0.0&gt;&gt;
-
-* uF041F (U+F041F): L&lt;&lt;812.0,1.0&gt;--&lt;690.0,0.0&gt;&gt;
-
-* uF0420 (U+F0420): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uF0421 (U+F0421): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uF0422 (U+F0422): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uF0423 (U+F0423): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uF0425 (U+F0425): L&lt;&lt;1227.0,1.0&gt;--&lt;1106.0,0.0&gt;&gt;
-
-* uF0427 (U+F0427): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uF0427 (U+F0427): L&lt;&lt;812.0,1.0&gt;--&lt;690.0,0.0&gt;&gt;
-
-* uF0428 (U+F0428): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uF0450 (U+F0450): L&lt;&lt;1444.0,1.0&gt;--&lt;1322.0,0.0&gt;&gt;
-
-* uF0464 (U+F0464): L&lt;&lt;795.0,1.0&gt;--&lt;674.0,0.0&gt;&gt;
-
-* uF0465 (U+F0465): L&lt;&lt;795.0,1.0&gt;--&lt;674.0,0.0&gt;&gt;
-
-* uF0489 (U+F0489): L&lt;&lt;819.0,1.0&gt;--&lt;697.0,0.0&gt;&gt;
-
-* uni2C02.ss03.salt (U+EC77): L&lt;&lt;279.0,373.0&gt;--&lt;278.0,589.0&gt;&gt;
-
-* uni2C0B.ss04 (U+F027B): L&lt;&lt;162.0,3.0&gt;--&lt;41.0,2.0&gt;&gt;
-
-* uni2C0F.ss03.salt (U+EC7E): L&lt;&lt;691.0,647.0&gt;--&lt;829.0,648.0&gt;&gt;
-
-* uni2C23 (U+2C23): L&lt;&lt;158.0,660.0&gt;--&lt;528.0,659.0&gt;&gt;
-
-* uni2C23 (U+2C23): L&lt;&lt;230.0,597.0&gt;--&lt;229.0,225.0&gt;&gt;
-
-* uni2C26.ss03 (U+F0226): L&lt;&lt;184.0,308.0&gt;--&lt;357.0,307.0&gt;&gt;
-
-* uni2C26.ss03 (U+F0226): L&lt;&lt;443.0,307.0&gt;--&lt;616.0,308.0&gt;&gt;
-
-* uni2C29.ss03 (U+F0229): L&lt;&lt;184.0,308.0&gt;--&lt;357.0,307.0&gt;&gt;
-
-* uni2C29.ss03 (U+F0229): L&lt;&lt;443.0,307.0&gt;--&lt;616.0,308.0&gt;&gt;
-
-* uni2C2D (U+2C2D): L&lt;&lt;436.0,-1.0&gt;--&lt;434.0,275.0&gt;&gt;
-
-* uni2C2D (U+2C2D): L&lt;&lt;528.0,663.0&gt;--&lt;529.0,-1.0&gt;&gt;
-
-* uni2C34.ss03 (U+F0234): L&lt;&lt;601.0,1.0&gt;--&lt;480.0,0.0&gt;&gt;
-
-* uni2C3D (U+2C3D): L&lt;&lt;315.0,284.0&gt;--&lt;314.0,166.0&gt;&gt;
-
-* uni2C42.ss03 (U+F0242): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
-
-* uni2C47.salt (U+EC67): L&lt;&lt;316.0,-4.0&gt;--&lt;315.0,-163.0&gt;&gt;
-
-* uni2C50.ss03.salt (U+EC91): L&lt;&lt;363.0,-3.0&gt;--&lt;241.0,-4.0&gt;&gt;
-
-* uni2C53 (U+2C53): L&lt;&lt;127.0,460.0&gt;--&lt;416.0,459.0&gt;&gt;
-
-* uni2C53 (U+2C53): L&lt;&lt;184.0,416.0&gt;--&lt;183.0,56.0&gt;&gt;
-
-* uni2C5A.ss03 (U+F025A): L&lt;&lt;523.0,-161.0&gt;--&lt;401.0,-162.0&gt;&gt;
-
-* uni2C5D (U+2C5D): L&lt;&lt;303.0,0.0&gt;--&lt;302.0,186.0&gt;&gt;
-
-* uni2C5D (U+2C5D): L&lt;&lt;373.0,478.0&gt;--&lt;374.0,0.0&gt;&gt;
-
-* uni2DE0 (U+2DE0): L&lt;&lt;-218.0,762.0&gt;--&lt;-86.0,763.0&gt;&gt;
-
-* uni2E43 (U+2E43): L&lt;&lt;492.0,160.0&gt;--&lt;808.0,158.0&gt;&gt;
-
-* uniA658 (U+A658): L&lt;&lt;364.0,277.0&gt;--&lt;168.0,276.0&gt;&gt;
-
-* uniA659 (U+A659): L&lt;&lt;256.0,194.0&gt;--&lt;119.0,193.0&gt;&gt;
-
-* uniA65C (U+A65C): L&lt;&lt;629.0,277.0&gt;--&lt;433.0,276.0&gt;&gt;
-
-* uniA65D (U+A65D): L&lt;&lt;417.0,194.0&gt;--&lt;280.0,193.0&gt;&gt;
-
-* uniA662 (U+A662): L&lt;&lt;168.0,649.0&gt;--&lt;635.0,650.0&gt;&gt;
-
-* uniEC9E (U+EC9E): L&lt;&lt;-136.0,458.0&gt;--&lt;-137.0,574.0&gt;&gt;
-
-* uniEC9F (U+EC9F): L&lt;&lt;-111.0,457.0&gt;--&lt;-110.0,693.0&gt;&gt;
-
-* uniEC9F (U+EC9F): L&lt;&lt;-229.0,457.0&gt;--&lt;-228.0,686.0&gt;&gt;
-
-* uniECA5 (U+ECA5): L&lt;&lt;601.0,1.0&gt;--&lt;480.0,0.0&gt;&gt;
-
-* uniED26 (U+ED26): L&lt;&lt;256.0,194.0&gt;--&lt;119.0,193.0&gt;&gt;
-</code></pre>
- [code: found-semi-vertical]
+* ⚠️ **WARN** <p>Family metadata at fonts/ttf does not have an article.</p>
+ [code: lacks-article]
 
 
 
@@ -791,28 +596,7 @@ uni223D, similar, uni2241, uni223B</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̓ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̅ i̇ ǐ ȉ ȋ i̒ i̔ i̾ i̿ i͐ i͛ i҃ i҄ i҅ i҆ i҇ i᷀ i᷁ iⷠ iⷡ</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ukrainian (Cyrl, 29,273,587 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Dii (Latn, 71,000 speakers), Dutch (Latn, 31,709,104 speakers), Mfumte (Latn, 79,000 speakers), Vute (Latn, 21,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Fur (Latn, 1,230,163 speakers), Kom (Latn, 360,685 speakers), Lugbara (Latn, 2,200,000 speakers), Bafut (Latn, 158,146 speakers), Nzakara (Latn, 50,000 speakers), Mundani (Latn, 34,000 speakers), Zapotec (Latn, 490,000 speakers), Navajo (Latn, 166,319 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Aghem (Latn, 38,843 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Southern Kisi (Latn, 360,000 speakers), Cicipu (Latn, 44,000 speakers), Ma’di (Latn, 584,000 speakers), Sar (Latn, 500,000 speakers), Ekpeye (Latn, 226,000 speakers), Dan (Latn, 1,099,244 speakers), Ngbaka (Latn, 1,020,000 speakers), Yala (Latn, 200,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Gulay (Latn, 250,478 speakers), Nateni (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Ejagham (Latn, 120,000 speakers), Basaa (Latn, 332,940 speakers), Mango (Latn, 77,000 speakers), South Central Banda (Latn, 244,000 speakers).</p>
- [code: soft-dotted]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -828,24 +612,23 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+007F : try adding symbols</li>
-<li>U+02BD MODIFIER LETTER REVERSED COMMA: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, old-permic, tifinagh, coptic, tai-le, math, canadian-aboriginal, syriac</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, math, tai-le, tifinagh, coptic, malayalam, duployan, old-permic, hebrew, syriac, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding coptic</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding old-permic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+032F COMBINING INVERTED BREVE BELOW: not included in any glyphset definition</li>
-<li>U+0332 COMBINING LOW LINE: not included in any glyphset definition</li>
+<li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
+<li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+033E COMBINING VERTICAL TILDE: not included in any glyphset definition</li>
 <li>U+033F COMBINING DOUBLE OVERLINE: try adding coptic</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
@@ -858,35 +641,34 @@ definitions.</p>
 <li>U+03FD GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL: try adding greek</li>
 <li>U+03FE GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL: try adding greek</li>
 <li>U+03FF GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL: try adding greek</li>
-<li>U+10FB GEORGIAN PARAGRAPH SEPARATOR: try adding georgian</li>
 <li>U+1DC0 COMBINING DOTTED GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+1DC1 COMBINING DOTTED ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+1DF6 COMBINING KAVYKA ABOVE RIGHT: not included in any glyphset definition</li>
 <li>U+1DF7 COMBINING KAVYKA ABOVE LEFT: not included in any glyphset definition</li>
 <li>U+1DF8 COMBINING DOT ABOVE LEFT: try adding syriac</li>
 <li>U+1DF9 COMBINING WIDE INVERTED BRIDGE BELOW: not included in any glyphset definition</li>
-<li>U+2000 EN QUAD: not included in any glyphset definition</li>
-<li>U+2001 EM QUAD: not included in any glyphset definition</li>
+<li>U+2000 EN QUAD: try adding symbols2</li>
+<li>U+2001 EM QUAD: try adding symbols2</li>
 <li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2004 THREE-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2006 SIX-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
-<li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
-<li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: malayalam, duployan, rejang, sinhala, mandaic, devanagari, myanmar, telugu, meetei-mayek, sharada, hanifi-rohingya, avestan, balinese, kharoshthi, tagalog, newa, arabic, hanunoo, grantha, syloti-nagri, yi, tai-le, bhaiksuki, oriya, gunjala-gondi, cham, chakma, psalter-pahlavi, modi, mahajani, gurmukhi, sundanese, bengali, new-tai-lue, kaithi, hatran, batak, thai, sogdian, gujarati, phags-pa, tai-viet, lao, tifinagh, tagbanwa, tibetan, takri, kayah-li, masaram-gondi, tirhuta, pahawh-hmong, zanabazar-square, tamil, nko, khmer, khudawadi, mongolian, khojki, brahmi, siddham, warang-citi, javanese, thaana, hebrew, manichaean, lepcha, tai-tham, kannada, buhid, limbu, dogra, saurashtra, syriac, buginese</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: malayalam, duployan, rejang, sinhala, mandaic, devanagari, myanmar, telugu, meetei-mayek, sharada, hanifi-rohingya, avestan, balinese, kharoshthi, tagalog, newa, arabic, hanunoo, grantha, syloti-nagri, yi, tai-le, bhaiksuki, oriya, gunjala-gondi, cham, chakma, psalter-pahlavi, modi, mahajani, gurmukhi, sundanese, bengali, new-tai-lue, kaithi, batak, thai, sogdian, gujarati, phags-pa, tai-viet, lao, tifinagh, tagbanwa, tibetan, takri, kayah-li, masaram-gondi, tirhuta, pahawh-hmong, zanabazar-square, tamil, nko, khmer, khudawadi, mongolian, khojki, old-hungarian, brahmi, siddham, warang-citi, javanese, thaana, hebrew, manichaean, lepcha, tai-tham, kannada, buhid, limbu, dogra, saurashtra, syriac, buginese</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: thaana, arabic, hebrew, nko, syriac, phags-pa</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, hebrew, nko, syriac, phags-pa</li>
-<li>U+2010 HYPHEN: try adding one of: cham, coptic, sora-sompeng, kayah-li, sundanese, kharoshthi, kaithi, yi, lisu, arabic, armenian, hebrew, syloti-nagri</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi, arabic</li>
+<li>U+2004 THREE-PER-EM SPACE: try adding symbols2</li>
+<li>U+2005 FOUR-PER-EM SPACE: try adding symbols2</li>
+<li>U+2006 SIX-PER-EM SPACE: try adding symbols2</li>
+<li>U+2007 FIGURE SPACE: try adding symbols2</li>
+<li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
+<li>U+200A HAIR SPACE: try adding symbols2</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: gurmukhi, buhid, cham, oriya, sogdian, avestan, malayalam, grantha, lao, manichaean, nko, tai-le, bhaiksuki, myanmar, masaram-gondi, takri, phags-pa, limbu, tibetan, psalter-pahlavi, gunjala-gondi, pahawh-hmong, mahajani, sundanese, tifinagh, bengali, gujarati, devanagari, arabic, yi, khojki, new-tai-lue, syriac, khmer, warang-citi, syloti-nagri, sinhala, kharoshthi, tamil, lepcha, thaana, tirhuta, hanifi-rohingya, tagbanwa, sharada, siddham, brahmi, kayah-li, tai-tham, hebrew, rejang, balinese, tagalog, mandaic, telugu, thai, chakma, zanabazar-square, hanunoo, khudawadi, modi, newa, dogra, kaithi, duployan, javanese, batak, meetei-mayek, kannada, mongolian, saurashtra, tai-viet, buginese, hatran</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: gurmukhi, buhid, cham, oriya, sogdian, avestan, malayalam, grantha, lao, manichaean, nko, tai-le, bhaiksuki, myanmar, masaram-gondi, takri, phags-pa, limbu, tibetan, psalter-pahlavi, gunjala-gondi, pahawh-hmong, mahajani, sundanese, tifinagh, bengali, gujarati, devanagari, arabic, old-hungarian, khojki, yi, new-tai-lue, syriac, khmer, warang-citi, syloti-nagri, sinhala, kharoshthi, tamil, lepcha, thaana, tirhuta, hanifi-rohingya, tagbanwa, sharada, siddham, brahmi, kayah-li, tai-tham, hebrew, rejang, balinese, tagalog, mandaic, telugu, thai, chakma, zanabazar-square, hanunoo, khudawadi, modi, newa, dogra, kaithi, duployan, javanese, batak, meetei-mayek, kannada, mongolian, saurashtra, tai-viet, buginese</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: thaana, nko, arabic, hebrew, syriac, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: thaana, nko, hebrew, syriac, phags-pa</li>
+<li>U+2010 HYPHEN: try adding one of: cham, syloti-nagri, kharoshthi, lisu, sora-sompeng, yi, sundanese, coptic, kaithi, armenian, arabic, kayah-li, hebrew</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri, arabic</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
 <li>U+201F DOUBLE HIGH-REVERSED-9 QUOTATION MARK: not included in any glyphset definition</li>
 <li>U+2024 ONE DOT LEADER: try adding armenian</li>
 <li>U+2025 TWO DOT LEADER: try adding phags-pa</li>
 <li>U+2027 HYPHENATION POINT: not included in any glyphset definition</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian, phags-pa</li>
 <li>U+203B REFERENCE MARK: not included in any glyphset definition</li>
 <li>U+203E OVERLINE: not included in any glyphset definition</li>
 <li>U+2052 COMMERCIAL MINUS SIGN: not included in any glyphset definition</li>
@@ -894,19 +676,19 @@ definitions.</p>
 <li>U+2056 THREE DOT PUNCTUATION: try adding coptic</li>
 <li>U+2058 FOUR DOT PUNCTUATION: try adding coptic</li>
 <li>U+2059 FIVE DOT PUNCTUATION: try adding coptic</li>
-<li>U+205A TWO DOT PUNCTUATION: try adding one of: lycian, old-hungarian, old-turkic</li>
 <li>U+205B FOUR DOT MARK: not included in any glyphset definition</li>
 <li>U+205C DOTTED CROSS: not included in any glyphset definition</li>
-<li>U+205D TRICOLON: try adding one of: old-hungarian, meroitic</li>
+<li>U+205D TRICOLON: try adding one of: carian, old-hungarian, meroitic, meroitic-hieroglyphs</li>
 <li>U+205E VERTICAL FOUR DOTS: try adding old-hungarian</li>
 <li>U+2060 WORD JOINER: not included in any glyphset definition</li>
+<li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
 <li>U+20DD COMBINING ENCLOSING CIRCLE: try adding symbols</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, math, yi, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
 <li>U+223B HOMOTHETIC: try adding math</li>
 <li>U+223C TILDE OPERATOR: try adding math</li>
 <li>U+223D REVERSED TILDE: try adding math</li>
 <li>U+2241 NOT TILDE: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: osage, yi, syloti-nagri, gunjala-gondi, music, old-permic, sundanese, bengali, soyombo, thai, gujarati, tagbanwa, kayah-li, zanabazar-square, caucasian-albanian, thaana, lepcha, tai-le, hebrew, limbu, marchen, wancho, miao, tai-viet, malayalam, sinhala, meetei-mayek, sharada, hanifi-rohingya, newa, grantha, mahajani, gurmukhi, new-tai-lue, kaithi, ahom, math, tamil, nko, khojki, siddham, javanese, manichaean, oriya, saurashtra, duployan, mandaic, balinese, tagalog, hanunoo, bhaiksuki, batak, lao, tifinagh, kannada, takri, elbasan, brahmi, coptic, mende-kikakui, canadian-aboriginal, buginese, rejang, devanagari, myanmar, telugu, adlam, kharoshthi, armenian, cham, chakma, psalter-pahlavi, modi, sogdian, bassa-vah, phags-pa, tibetan, masaram-gondi, tirhuta, pahawh-hmong, khmer, khudawadi, mongolian, warang-citi, tai-tham, symbols, buhid, dogra, syriac</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: gurmukhi, cham, coptic, nko, masaram-gondi, phags-pa, limbu, gujarati, devanagari, yi, tamil, lepcha, marchen, bassa-vah, hanifi-rohingya, brahmi, kayah-li, mende-kikakui, tagalog, wancho, hanunoo, khudawadi, modi, duployan, mongolian, tai-viet, buhid, malayalam, elbasan, bhaiksuki, adlam, miao, tirhuta, tai-tham, old-permic, hebrew, telugu, newa, dogra, kaithi, meetei-mayek, batak, kannada, saurashtra, buginese, osage, grantha, myanmar, psalter-pahlavi, gunjala-gondi, soyombo, pahawh-hmong, tifinagh, bengali, music, armenian, khojki, new-tai-lue, khmer, warang-citi, syloti-nagri, sinhala, kharoshthi, tagbanwa, siddham, rejang, balinese, mandaic, chakma, zanabazar-square, caucasian-albanian, symbols, thai, oriya, math, sogdian, lao, tai-le, takri, tibetan, mahajani, sundanese, ahom, syriac, thaana, sharada, javanese, manichaean, canadian-aboriginal</li>
 <li>U+261E WHITE RIGHT POINTING INDEX: try adding symbols</li>
 <li>U+2626 ORTHODOX CROSS: try adding symbols</li>
 <li>U+263D FIRST QUARTER MOON: try adding symbols</li>
@@ -914,7 +696,7 @@ definitions.</p>
 <li>U+271A HEAVY GREEK CROSS: try adding symbols</li>
 <li>U+2720 MALTESE CROSS: try adding symbols</li>
 <li>U+2734 EIGHT POINTED BLACK STAR: try adding symbols</li>
-<li>U+29BF CIRCLED BULLET: try adding one of: symbols, math</li>
+<li>U+29BF CIRCLED BULLET: try adding one of: math, symbols</li>
 <li>U+29DF DOUBLE-ENDED MULTIMAP: try adding math</li>
 <li>U+2E2A TWO DOTS OVER ONE DOT PUNCTUATION: not included in any glyphset definition</li>
 <li>U+2E2B ONE DOT OVER TWO DOTS PUNCTUATION: not included in any glyphset definition</li>
@@ -1373,7 +1155,7 @@ definitions.</p>
 <li>U+F69E : not included in any glyphset definition</li>
 <li>U+F69F : not included in any glyphset definition</li>
 <li>U+F6A0 : not included in any glyphset definition</li>
-<li>U+FE26 COMBINING CONJOINING MACRON: try adding one of: coptic, caucasian-albanian</li>
+<li>U+FE26 COMBINING CONJOINING MACRON: try adding one of: caucasian-albanian, coptic</li>
 <li>U+1D000 BYZANTINE MUSICAL SYMBOL PSILI: try adding music</li>
 <li>U+1D001 BYZANTINE MUSICAL SYMBOL DASEIA: try adding music</li>
 <li>U+1D002 BYZANTINE MUSICAL SYMBOL PERISPOMENI: try adding music</li>
@@ -1907,7 +1689,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure files are not too large. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
 
@@ -1916,8 +1698,11 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>Font file is 1.0Mb; ideally it should be less than 1.0Mb</p>
- [code: large-font]
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ i̓ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̅ i̇ ǐ ȉ ȋ i̒ i̔ i̾ i̿ i͐ i͛ i҃ i҄ i҅ i҆ i҇ i᷀ i᷁ iⷠ iⷡ</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Lithuanian (Latn, 2,357,094 speakers), Belarusian (Cyrl, 10,064,517 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Teke-Ebo (Latn, 260,000 speakers), Nateni (Latn, 100,000 speakers), Gulay (Latn, 250,478 speakers), Han (Latn, 6 speakers), Koonzime (Latn, 40,000 speakers), South Central Banda (Latn, 244,000 speakers), Ma’di (Latn, 584,000 speakers), Abua (Latn, 25,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ekpeye (Latn, 226,000 speakers), Western Krahn (Latn, 97,800 speakers), Northern Tutchone (Latn, 85 speakers), Bafut (Latn, 158,146 speakers), Navajo (Latn, 166,319 speakers), Ejagham (Latn, 120,000 speakers), Sar (Latn, 500,000 speakers), Ikwere (Latn, 717,000 speakers), Southern Kisi (Latn, 360,000 speakers), Makaa (Latn, 221,000 speakers), Zapotec (Latn, 490,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Vute (Latn, 21,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), Fur (Latn, 1,230,163 speakers), Dii (Latn, 71,000 speakers), Basaa (Latn, 332,940 speakers), Mfumte (Latn, 79,000 speakers), Cicipu (Latn, 44,000 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mundani (Latn, 34,000 speakers), Kom (Latn, 360,685 speakers), Dutch (Latn, 31,709,104 speakers), Yala (Latn, 200,000 speakers), Keliko (Latn, 63,000 speakers), Longto (Latn, 5,000 speakers), Mango (Latn, 77,000 speakers), Heiltsuk (Latn, 300 speakers), Kaska (Latn, 125 speakers), Southern Tutchone (Latn, 65 speakers), Dan (Latn, 1,099,244 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -1925,7 +1710,275 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
+<pre><code>* afii10030 (U+041C): B&lt;&lt;241.0,280.5&gt;-&lt;233.0,320.0&gt;-&lt;225.0,361.0&gt;&gt;/L&lt;&lt;225.0,361.0&gt;--&lt;225.0,22.0&gt;&gt; = 11.04094018032372
+
+* afii10030 (U+041C): L&lt;&lt;540.0,22.0&gt;--&lt;540.0,361.0&gt;&gt;/B&lt;&lt;540.0,361.0&gt;-&lt;530.0,308.0&gt;-&lt;521.0,265.0&gt;&gt; = 10.684912400002695
+
+* u1E00C (U+1E00C): B&lt;&lt;-264.5,668.5&gt;-&lt;-238.0,614.0&gt;-&lt;-228.0,557.0&gt;&gt;/B&lt;&lt;-228.0,557.0&gt;-&lt;-228.0,565.0&gt;-&lt;-218.5,576.5&gt;&gt; = 9.950626687951587
+
+* u1F312 (U+1F312): B&lt;&lt;468.0,49.0&gt;-&lt;442.0,33.0&gt;-&lt;425.0,33.0&gt;&gt;/B&lt;&lt;425.0,33.0&gt;-&lt;432.0,32.0&gt;-&lt;435.0,32.0&gt;&gt; = 8.13010235415596
+
+* u1F318 (U+1F318): B&lt;&lt;376.5,763.0&gt;-&lt;384.0,766.0&gt;-&lt;393.0,768.0&gt;&gt;/L&lt;&lt;393.0,768.0&gt;--&lt;379.0,768.0&gt;&gt; = 12.528807709151492
+
+* u1F377 (U+1F377): B&lt;&lt;466.5,415.5&gt;-&lt;489.0,424.0&gt;-&lt;507.0,431.0&gt;&gt;/B&lt;&lt;507.0,431.0&gt;-&lt;499.0,430.0&gt;-&lt;487.5,430.0&gt;&gt; = 14.12548915823142
+
+* u1F41F (U+1F41F): B&lt;&lt;516.0,308.0&gt;-&lt;543.0,314.0&gt;-&lt;730.0,332.0&gt;&gt;/B&lt;&lt;730.0,332.0&gt;-&lt;702.0,336.0&gt;-&lt;675.5,337.5&gt;&gt; = 13.62826507913694
+
+* u1F41F (U+1F41F): L&lt;&lt;833.0,445.0&gt;--&lt;914.0,405.0&gt;&gt;/B&lt;&lt;914.0,405.0&gt;-&lt;900.0,416.0&gt;-&lt;900.0,434.0&gt;&gt; = 11.875815566048908
+
+* uni046E (U+046E): B&lt;&lt;304.0,457.0&gt;-&lt;262.0,424.0&gt;-&lt;260.0,424.0&gt;&gt;/B&lt;&lt;260.0,424.0&gt;-&lt;294.0,421.0&gt;-&lt;311.0,414.0&gt;&gt; = 5.042451069170885
+
+* uni046F (U+046F): B&lt;&lt;210.0,319.0&gt;-&lt;182.0,297.0&gt;-&lt;179.0,297.0&gt;&gt;/B&lt;&lt;179.0,297.0&gt;-&lt;215.0,292.0&gt;-&lt;239.0,278.5&gt;&gt; = 7.907162702958418
+
+* uni263D (U+263D): B&lt;&lt;117.0,764.0&gt;-&lt;107.0,766.0&gt;-&lt;96.0,767.0&gt;&gt;/B&lt;&lt;96.0,767.0&gt;-&lt;110.0,763.0&gt;-&lt;128.5,749.0&gt;&gt; = 10.750966993188039
+
+* uni263D (U+263D): B&lt;&lt;124.5,28.5&gt;-&lt;113.0,20.0&gt;-&lt;106.0,20.0&gt;&gt;/B&lt;&lt;106.0,20.0&gt;-&lt;113.0,19.0&gt;-&lt;116.0,18.5&gt;&gt; = 8.13010235415596
+
+* uni263E (U+263E): B&lt;&lt;359.5,749.0&gt;-&lt;378.0,763.0&gt;-&lt;392.0,767.0&gt;&gt;/B&lt;&lt;392.0,767.0&gt;-&lt;382.0,766.0&gt;-&lt;372.0,764.0&gt;&gt; = 10.234802763423207
+
+* uni263E (U+263E): B&lt;&lt;372.0,18.5&gt;-&lt;375.0,19.0&gt;-&lt;382.0,20.0&gt;&gt;/B&lt;&lt;382.0,20.0&gt;-&lt;376.0,20.0&gt;-&lt;364.0,28.5&gt;&gt; = 8.13010235415596
+
+* uni2C17.salt (U+EC66): B&lt;&lt;52.0,455.0&gt;-&lt;94.0,507.0&gt;-&lt;199.0,507.0&gt;&gt;/L&lt;&lt;199.0,507.0&gt;--&lt;172.0,513.0&gt;&gt; = 12.528807709151522
+
+* uniA666 (U+A666): B&lt;&lt;241.0,280.5&gt;-&lt;233.0,320.0&gt;-&lt;225.0,361.0&gt;&gt;/L&lt;&lt;225.0,361.0&gt;--&lt;225.0,22.0&gt;&gt; = 11.04094018032372
+
+* uniA666 (U+A666): L&lt;&lt;540.0,22.0&gt;--&lt;540.0,361.0&gt;&gt;/B&lt;&lt;540.0,361.0&gt;-&lt;530.0,308.0&gt;-&lt;521.0,265.0&gt;&gt; = 10.684912400002695
+
+* uniE0BB (U+E0BB): B&lt;&lt;-85.0,695.0&gt;-&lt;-99.0,684.0&gt;-&lt;-100.0,684.0&gt;&gt;/B&lt;&lt;-100.0,684.0&gt;-&lt;-90.0,682.0&gt;-&lt;-82.0,680.0&gt;&gt; = 11.309932474020195
+
+* uniED13 (U+ED13): B&lt;&lt;210.0,319.0&gt;-&lt;182.0,297.0&gt;-&lt;179.0,297.0&gt;&gt;/B&lt;&lt;179.0,297.0&gt;-&lt;215.0,292.0&gt;-&lt;239.0,278.5&gt;&gt; = 7.907162702958418
+</code></pre>
+ [code: found-jaggy-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* Ebreve (U+0114): L&lt;&lt;127.0,126.0&gt;--&lt;126.0,521.0&gt;&gt;
+
+* Edotaccent (U+0116): L&lt;&lt;126.0,126.0&gt;--&lt;127.0,521.0&gt;&gt;
+
+* M (U+004D): L&lt;&lt;675.0,147.0&gt;--&lt;672.0,550.0&gt;&gt;
+
+* afii10021 (U+0414): L&lt;&lt;168.0,649.0&gt;--&lt;484.0,650.0&gt;&gt;
+
+* afii10024 (U+0416): L&lt;&lt;62.0,448.0&gt;--&lt;61.0,628.0&gt;&gt;
+
+* afii10024 (U+0416): L&lt;&lt;781.0,628.0&gt;--&lt;780.0,448.0&gt;&gt;
+
+* ij (U+0133): L&lt;&lt;449.0,451.0&gt;--&lt;450.0,115.0&gt;&gt;
+
+* k (U+006B): L&lt;&lt;517.0,0.0&gt;--&lt;373.0,-1.0&gt;&gt;
+
+* kcommaaccent (U+0137): L&lt;&lt;517.0,0.0&gt;--&lt;373.0,-1.0&gt;&gt;
+
+* onequarter (U+00BC): L&lt;&lt;216.0,635.0&gt;--&lt;215.0,361.0&gt;&gt;
+
+* u1E000 (U+1E000): L&lt;&lt;-170.0,602.0&gt;--&lt;-171.0,478.0&gt;&gt;
+
+* u1E000 (U+1E000): L&lt;&lt;-231.0,478.0&gt;--&lt;-232.0,598.0&gt;&gt;
+
+* u1E021 (U+1E021): L&lt;&lt;-65.0,458.0&gt;--&lt;-354.0,459.0&gt;&gt;
+
+* u1E023 (U+1E023): L&lt;&lt;-284.0,740.0&gt;--&lt;-285.0,615.0&gt;&gt;
+
+* uF0139 (U+F0139): L&lt;&lt;536.0,245.0&gt;--&lt;535.0,385.0&gt;&gt;
+
+* uF02EA (U+F02EA): L&lt;&lt;296.0,1.0&gt;--&lt;174.0,0.0&gt;&gt;
+
+* uF02EB (U+F02EB): L&lt;&lt;345.0,1.0&gt;--&lt;223.0,0.0&gt;&gt;
+
+* uF02F3 (U+F02F3): L&lt;&lt;174.0,1.0&gt;--&lt;53.0,0.0&gt;&gt;
+
+* uF02F4 (U+F02F4): L&lt;&lt;326.0,1.0&gt;--&lt;204.0,0.0&gt;&gt;
+
+* uF030B (U+F030B): L&lt;&lt;796.0,1.0&gt;--&lt;674.0,0.0&gt;&gt;
+
+* uF031A (U+F031A): L&lt;&lt;1455.0,1.0&gt;--&lt;1334.0,0.0&gt;&gt;
+
+* uF0329 (U+F0329): L&lt;&lt;1438.0,1.0&gt;--&lt;1316.0,0.0&gt;&gt;
+
+* uF032D (U+F032D): L&lt;&lt;1430.0,-3.0&gt;--&lt;1309.0,-4.0&gt;&gt;
+
+* uF032E (U+F032E): L&lt;&lt;1430.0,-3.0&gt;--&lt;1309.0,-4.0&gt;&gt;
+
+* uF032F (U+F032F): L&lt;&lt;1430.0,-3.0&gt;--&lt;1309.0,-4.0&gt;&gt;
+
+* uF032F (U+F032F): L&lt;&lt;1832.0,278.0&gt;--&lt;1954.0,279.0&gt;&gt;
+
+* uF0337 (U+F0337): L&lt;&lt;1641.0,1.0&gt;--&lt;1520.0,0.0&gt;&gt;
+
+* uF0352 (U+F0352): L&lt;&lt;1484.0,-2.0&gt;--&lt;1362.0,-3.0&gt;&gt;
+
+* uF0361 (U+F0361): L&lt;&lt;601.0,1.0&gt;--&lt;480.0,0.0&gt;&gt;
+
+* uF0379 (U+F0379): L&lt;&lt;1018.0,1.0&gt;--&lt;896.0,0.0&gt;&gt;
+
+* uF037A (U+F037A): L&lt;&lt;1018.0,1.0&gt;--&lt;896.0,0.0&gt;&gt;
+
+* uF0392 (U+F0392): L&lt;&lt;1006.0,1.0&gt;--&lt;885.0,0.0&gt;&gt;
+
+* uF0394 (U+F0394): L&lt;&lt;1006.0,1.0&gt;--&lt;885.0,0.0&gt;&gt;
+
+* uF039D (U+F039D): L&lt;&lt;585.0,1.0&gt;--&lt;464.0,0.0&gt;&gt;
+
+* uF039F (U+F039F): L&lt;&lt;585.0,1.0&gt;--&lt;464.0,0.0&gt;&gt;
+
+* uF03A0 (U+F03A0): L&lt;&lt;585.0,1.0&gt;--&lt;464.0,0.0&gt;&gt;
+
+* uF03D4 (U+F03D4): L&lt;&lt;1220.0,1.0&gt;--&lt;1099.0,0.0&gt;&gt;
+
+* uF03D5 (U+F03D5): L&lt;&lt;1233.0,1.0&gt;--&lt;1111.0,0.0&gt;&gt;
+
+* uF03D6 (U+F03D6): L&lt;&lt;1233.0,1.0&gt;--&lt;1111.0,0.0&gt;&gt;
+
+* uF03DF (U+F03DF): L&lt;&lt;1357.0,1.0&gt;--&lt;1235.0,0.0&gt;&gt;
+
+* uF03F4 (U+F03F4): L&lt;&lt;620.0,1.0&gt;--&lt;498.0,0.0&gt;&gt;
+
+* uF03F5 (U+F03F5): L&lt;&lt;620.0,1.0&gt;--&lt;498.0,0.0&gt;&gt;
+
+* uF0400 (U+F0400): L&lt;&lt;620.0,1.0&gt;--&lt;498.0,0.0&gt;&gt;
+
+* uF040D (U+F040D): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uF040F (U+F040F): L&lt;&lt;1227.0,1.0&gt;--&lt;1106.0,0.0&gt;&gt;
+
+* uF0410 (U+F0410): L&lt;&lt;1227.0,1.0&gt;--&lt;1106.0,0.0&gt;&gt;
+
+* uF0417 (U+F0417): L&lt;&lt;1225.0,1.0&gt;--&lt;1104.0,0.0&gt;&gt;
+
+* uF0418 (U+F0418): L&lt;&lt;1249.0,1.0&gt;--&lt;1127.0,0.0&gt;&gt;
+
+* uF041B (U+F041B): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uF041C (U+F041C): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uF041E (U+F041E): L&lt;&lt;812.0,1.0&gt;--&lt;691.0,0.0&gt;&gt;
+
+* uF041F (U+F041F): L&lt;&lt;812.0,1.0&gt;--&lt;690.0,0.0&gt;&gt;
+
+* uF0420 (U+F0420): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uF0421 (U+F0421): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uF0422 (U+F0422): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uF0423 (U+F0423): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uF0425 (U+F0425): L&lt;&lt;1227.0,1.0&gt;--&lt;1106.0,0.0&gt;&gt;
+
+* uF0427 (U+F0427): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uF0427 (U+F0427): L&lt;&lt;812.0,1.0&gt;--&lt;690.0,0.0&gt;&gt;
+
+* uF0428 (U+F0428): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uF0450 (U+F0450): L&lt;&lt;1444.0,1.0&gt;--&lt;1322.0,0.0&gt;&gt;
+
+* uF0464 (U+F0464): L&lt;&lt;795.0,1.0&gt;--&lt;674.0,0.0&gt;&gt;
+
+* uF0465 (U+F0465): L&lt;&lt;795.0,1.0&gt;--&lt;674.0,0.0&gt;&gt;
+
+* uF0489 (U+F0489): L&lt;&lt;819.0,1.0&gt;--&lt;697.0,0.0&gt;&gt;
+
+* uni2C02.ss03.salt (U+EC77): L&lt;&lt;279.0,373.0&gt;--&lt;278.0,589.0&gt;&gt;
+
+* uni2C0B.ss04 (U+F027B): L&lt;&lt;162.0,3.0&gt;--&lt;41.0,2.0&gt;&gt;
+
+* uni2C0F.ss03.salt (U+EC7E): L&lt;&lt;691.0,647.0&gt;--&lt;829.0,648.0&gt;&gt;
+
+* uni2C23 (U+2C23): L&lt;&lt;158.0,660.0&gt;--&lt;528.0,659.0&gt;&gt;
+
+* uni2C23 (U+2C23): L&lt;&lt;230.0,597.0&gt;--&lt;229.0,225.0&gt;&gt;
+
+* uni2C26.ss03 (U+F0226): L&lt;&lt;184.0,308.0&gt;--&lt;357.0,307.0&gt;&gt;
+
+* uni2C26.ss03 (U+F0226): L&lt;&lt;443.0,307.0&gt;--&lt;616.0,308.0&gt;&gt;
+
+* uni2C29.ss03 (U+F0229): L&lt;&lt;184.0,308.0&gt;--&lt;357.0,307.0&gt;&gt;
+
+* uni2C29.ss03 (U+F0229): L&lt;&lt;443.0,307.0&gt;--&lt;616.0,308.0&gt;&gt;
+
+* uni2C2D (U+2C2D): L&lt;&lt;436.0,-1.0&gt;--&lt;434.0,275.0&gt;&gt;
+
+* uni2C2D (U+2C2D): L&lt;&lt;528.0,663.0&gt;--&lt;529.0,-1.0&gt;&gt;
+
+* uni2C34.ss03 (U+F0234): L&lt;&lt;601.0,1.0&gt;--&lt;480.0,0.0&gt;&gt;
+
+* uni2C3D (U+2C3D): L&lt;&lt;315.0,284.0&gt;--&lt;314.0,166.0&gt;&gt;
+
+* uni2C42.ss03 (U+F0242): L&lt;&lt;391.0,1.0&gt;--&lt;269.0,0.0&gt;&gt;
+
+* uni2C47.salt (U+EC67): L&lt;&lt;316.0,-4.0&gt;--&lt;315.0,-163.0&gt;&gt;
+
+* uni2C50.ss03.salt (U+EC91): L&lt;&lt;363.0,-3.0&gt;--&lt;241.0,-4.0&gt;&gt;
+
+* uni2C53 (U+2C53): L&lt;&lt;127.0,460.0&gt;--&lt;416.0,459.0&gt;&gt;
+
+* uni2C53 (U+2C53): L&lt;&lt;184.0,416.0&gt;--&lt;183.0,56.0&gt;&gt;
+
+* uni2C5A.ss03 (U+F025A): L&lt;&lt;523.0,-161.0&gt;--&lt;401.0,-162.0&gt;&gt;
+
+* uni2C5D (U+2C5D): L&lt;&lt;303.0,0.0&gt;--&lt;302.0,186.0&gt;&gt;
+
+* uni2C5D (U+2C5D): L&lt;&lt;373.0,478.0&gt;--&lt;374.0,0.0&gt;&gt;
+
+* uni2DE0 (U+2DE0): L&lt;&lt;-218.0,762.0&gt;--&lt;-86.0,763.0&gt;&gt;
+
+* uni2E43 (U+2E43): L&lt;&lt;492.0,160.0&gt;--&lt;808.0,158.0&gt;&gt;
+
+* uniA658 (U+A658): L&lt;&lt;364.0,277.0&gt;--&lt;168.0,276.0&gt;&gt;
+
+* uniA659 (U+A659): L&lt;&lt;256.0,194.0&gt;--&lt;119.0,193.0&gt;&gt;
+
+* uniA65C (U+A65C): L&lt;&lt;629.0,277.0&gt;--&lt;433.0,276.0&gt;&gt;
+
+* uniA65D (U+A65D): L&lt;&lt;417.0,194.0&gt;--&lt;280.0,193.0&gt;&gt;
+
+* uniA662 (U+A662): L&lt;&lt;168.0,649.0&gt;--&lt;635.0,650.0&gt;&gt;
+
+* uniEC9E (U+EC9E): L&lt;&lt;-136.0,458.0&gt;--&lt;-137.0,574.0&gt;&gt;
+
+* uniEC9F (U+EC9F): L&lt;&lt;-111.0,457.0&gt;--&lt;-110.0,693.0&gt;&gt;
+
+* uniEC9F (U+EC9F): L&lt;&lt;-229.0,457.0&gt;--&lt;-228.0,686.0&gt;&gt;
+
+* uniECA5 (U+ECA5): L&lt;&lt;601.0,1.0&gt;--&lt;480.0,0.0&gt;&gt;
+
+* uniED26 (U+ED26): L&lt;&lt;256.0,194.0&gt;--&lt;119.0,193.0&gt;&gt;
+</code></pre>
+ [code: found-semi-vertical]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
 
@@ -1943,55 +1996,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure Stylistic Sets have description. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gsub.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss01 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss02 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss03 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss04 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-* ⚠️ **WARN** <p>The stylistic set ss05 lacks a description string on the 'name' table.</p>
- [code: missing-description]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vendor-id">googlefonts/vendor_id</a></summary>
     <div>
 
 
@@ -2007,24 +2012,6 @@ definitions.</p>
 
 </div>
 </details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.542x (1542)</p>
- [code: bad-hhea-range]
-
-
-
-</div>
-</details>
 </div>
 </details>
 
@@ -2035,8 +2022,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 17 | 119 | 7 | 105 | 0 | 
-| 0% | 0% | 2% | 7% | 47% | 3% | 42% | 0% | 
+| 1 | 0 | 4 | 17 | 107 | 6 | 101 | 0 | 
+| 0% | 0% | 2% | 7% | 45% | 3% | 43% | 0% | 
 
 
 

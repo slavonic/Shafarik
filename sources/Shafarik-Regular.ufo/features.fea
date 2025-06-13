@@ -874,7 +874,7 @@ lookup StylisticSet5GalgoliticLigatures {
     sub \uni2C42 \uni2C32  by \uF040E;
     sub \uni2C42 \uni2C32 \uni2C34  by \uF040F;
     sub \uni2C42 \uni2C32 \uni2C34 \uni2C30  by \uF0410;
-    sub \uni2C42 \uni2C32  by \uF0411;
+    sub \uni2C42 \uni2C32 \uni2C3E  by \uF0411;
     sub \uni2C42 \uni2C3B  by \uF0412;
     sub \uni2C42 \uni2C3B \uni2C45  by \uF0413;
     sub \uni2C42 \uni2C3E  by \uF0414;
@@ -1117,7 +1117,7 @@ lookup StylisticSet5GalgoliticLigatures {
     sub \uni2C42.ss03 \uni2C32.ss03  by \uF040E;
     sub \uni2C42.ss03 \uni2C32.ss03 \uni2C34.ss03  by \uF040F;
     sub \uni2C42.ss03 \uni2C32.ss03 \uni2C34.ss03 \uni2C30.ss03  by \uF0410;
-    sub \uni2C42.ss03 \uni2C32.ss03  by \uF0411;
+    sub \uni2C42.ss03 \uni2C32.ss03 \uni2C3E.ss03  by \uF0411;
     sub \uni2C42.ss03 \uni2C3B.ss03  by \uF0412;
     sub \uni2C42.ss03 \uni2C3B.ss03 \uni2C45.ss03  by \uF0413;
     sub \uni2C42.ss03 \uni2C3E.ss03  by \uF0414;
@@ -1362,7 +1362,7 @@ lookup StylisticSet5GalgoliticLigatures {
     sub \uni2C42.ss04 \uni2C32.ss04  by \uF040E;
     sub \uni2C42.ss04 \uni2C32.ss04 \uni2C34.ss04  by \uF040F;
     sub \uni2C42.ss04 \uni2C32.ss04 \uni2C34.ss04 \uni2C30.ss04  by \uF0410;
-    sub \uni2C42.ss04 \uni2C32.ss04  by \uF0411;
+    sub \uni2C42.ss04 \uni2C32.ss04 \uni2C3E.ss04  by \uF0411;
     sub \uni2C42.ss04 \uni2C3B.ss04  by \uF0412;
     sub \uni2C42.ss04 \uni2C3B.ss04 \uni2C45.ss04  by \uF0413;
     sub \uni2C42.ss04 \uni2C3E.ss04  by \uF0414;

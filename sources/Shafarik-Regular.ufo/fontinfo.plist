@@ -13,7 +13,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>2</integer>
+    <integer>1</integer>
     <key>copyright</key>
     <string>Copyright 2025 The Shafarik Project Authors (https://github.com/slavonic/Shafarik.git)</string>
     <key>unitsPerEm</key>
@@ -39,7 +39,7 @@
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.002</string>
+    <string>Version 1.001</string>
     <key>openTypeNameSampleText</key>
     <string>ѣкоже естъ псано въ пророцѣхъ ⱑⰽⱁⰶⰵ ⰵⱄⱅⱏ ⱂⱄⰰⱀⱁ ⰲⱏ ⱂⱃⱁⱃⱁⱌⱑⱈⱏ</string>
     <key>openTypeOS2WidthClass</key>
